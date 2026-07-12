@@ -88,7 +88,9 @@ class EnterpriseChunker:
             chunk_number = 1
 
             for section in packed_sections:
-
+                # Skip empty or near-empty sections
+                if section.word_count < 10:
+                    continue
                 pieces = self.splitter.split(
                     section.text
                 )
@@ -131,6 +133,9 @@ class EnterpriseChunker:
 
                         character_count=len(piece)
                     )
+                    # Skip meaningless chunks
+                    if chunk.word_count < 10:
+                        continue
 
                     if chunk.word_count < self.config.min_words:
                         self.stats.tiny_chunks += 1
@@ -164,6 +169,19 @@ class EnterpriseChunker:
         with open(output_dir / "oversized_chunks.json", "w", encoding="utf-8") as f:
             json.dump(oversized_chunks, f, indent=2, ensure_ascii=False)
 
+        
+        smallest = min(all_chunks, key=lambda c: c.word_count)
+        print("\n" + "=" * 80)
+        print("SMALLEST CHUNK")
+        print("=" * 80)
+        print(f"File      : {smallest.filename}")
+        print(f"Heading   : {smallest.heading}")
+        print(f"Words     : {smallest.word_count}")
+        print(f"Chunk ID  : {smallest.chunk_id}")
+        print("\nContent:")
+        print("-" * 80)
+        print(smallest.text)
+        print("=" * 80)
         return all_chunks
 
     def run(self):

@@ -42,24 +42,6 @@
     "text": "## Open issuesSwitch filter\n\nPowered by a free Atlassian [Jira](http://www.atlassian.com/software/jira) open source license for Apache Software Foundation. Try Jira - [bug tracking software](http://www.atlassian.com/software/jira) for _your_ team. \n[Atlassian](http://www.atlassian.com/)\n[](javascript:;)[](javascript:;)"
   },
   {
-    "filename": "logging.apache.org_log4j_2.x_manual_json-template-layout.html.md",
-    "heading": "[](https://logging.apache.org/log4j/2.x/manual/json-template-layout.html#event-template-resolver-endOfBatch)`endOfBatch`",
-    "word_count": 6,
-    "text": "#####  [](https://logging.apache.org/log4j/2.x/manual/json-template-layout.html#event-template-resolver-endOfBatch)`endOfBatch`\nResolves `LogEvent#isEndOfBatch()` boolean flag"
-  },
-  {
-    "filename": "spark.apache.org_docs_latest_api_R_reference_index.html.md",
-    "heading": "Function reference",
-    "word_count": 3,
-    "text": "# Function reference"
-  },
-  {
-    "filename": "spark.apache.org_docs_latest_api_java_deprecated-list.html.md",
-    "heading": "Deprecated API",
-    "word_count": 3,
-    "text": "# Deprecated API"
-  },
-  {
     "filename": "spark.apache.org_docs_latest_api_java_org_apache_parquet_filter2_predicate_package-summary.html.md",
     "heading": "Package org.apache.parquet.filter2.predicate",
     "word_count": 31,
@@ -294,18 +276,6 @@
     "text": "### Deprecated Value Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#finalize\\(\\):Unit \"Permalink\") def finalize(): Unit \n\nAttributes\n    protected[lang]  \n\nDefinition Classes\n    AnyRef \n\nAnnotations\n     @throws(classOf[java.lang.Throwable]) @Deprecated \n\nDeprecated\n    \n_(Since version 9)_\n\n### Inherited from Logging"
   },
   {
-    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_ContextAwareIterator.html.md",
-    "heading": "Inherited from IterableOnceOps[T, Iterator, Iterator[T]]",
-    "word_count": 6,
-    "text": "### Inherited from IterableOnceOps[T, Iterator, Iterator[T]]"
-  },
-  {
-    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_InterruptibleIterator.html.md",
-    "heading": "Inherited from IterableOnceOps[T, Iterator, Iterator[T]]",
-    "word_count": 6,
-    "text": "### Inherited from IterableOnceOps[T, Iterator, Iterator[T]]"
-  },
-  {
     "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_SparkConf.html.md",
     "heading": "Value Members",
     "word_count": 47,
@@ -474,18 +444,6 @@
     "text": "## Value Members\n\nDefinition Classes\n    Logging\n  128. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/sql/Column.html#||\\(other:Any\\):org.apache.spark.sql.Column \"Permalink\") def ||(other: Any): [Column](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/sql/Column.html \"org.apache.spark.sql.Column\")\nBoolean OR.\nBoolean OR.\n\n```\n// Scala: The following selects people that are in school or employed.\npeople.filter( people(\"inSchool\") || people(\"isEmployed\") )\n\n// Java:\npeople.filter( people.col(\"inSchool\").or(people.col(\"isEmployed\")) );\n```\n\nSince\n\n1.3.0"
   },
   {
-    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_sql_Dataset.html.md",
-    "heading": "Dataset[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/sql/Dataset.html \"Permalink\")",
-    "word_count": 4,
-    "text": "# Dataset[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/sql/Dataset.html \"Permalink\")"
-  },
-  {
-    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_sql_Dataset.html.md",
-    "heading": "Instance Constructors",
-    "word_count": 8,
-    "text": "### Instance Constructors\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/sql/Dataset.html#<init>\\(\\):org.apache.spark.sql.Dataset\\[T\\] \"Permalink\") new Dataset()"
-  },
-  {
     "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_status_index.html.md",
     "heading": "status[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/status/index.html \"Permalink\")",
     "word_count": 20,
@@ -534,12 +492,6 @@
     "text": "# unsafe[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/unsafe/index.html \"Permalink\")\n\n####  package unsafe\n\n### Package Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/unsafe/types/index.html \"Permalink\") package [types](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/unsafe/types/index.html)"
   },
   {
-    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_util_index.html.md",
-    "heading": "Type Members",
-    "word_count": 5,
-    "text": "## Type Members\n\nAnnotations\n     @DeveloperApi()"
-  },
-  {
     "filename": "spark.apache.org_docs_latest_api_scala_org_index.html.md",
     "heading": "Packages",
     "word_count": 41,
@@ -564,22 +516,10 @@
     "text": "# Migration Guide[](https://spark.apache.org/docs/latest/migration-guide.html#migration-guide)\nThis page documents sections of the migration guide for each component in order for users to migrate effectively.\n  * [Spark Core](https://spark.apache.org/docs/latest/core-migration-guide.html)\n  * [SQL, Datasets, and DataFrame](https://spark.apache.org/docs/latest/sql-migration-guide.html)\n  * [Structured Streaming](https://spark.apache.org/docs/latest/streaming/ss-migration-guide.html)\n  * [MLlib (Machine Learning)](https://spark.apache.org/docs/latest/ml-migration-guide.html)\n  * [PySpark (Python on Spark)](https://spark.apache.org/docs/latest/pyspark-migration-guide.html)\n  * [SparkR (R on Spark)](https://spark.apache.org/docs/latest/sparkr-migration-guide.html)"
   },
   {
-    "filename": "spark.apache.org_docs_latest_ml-classification-regression.html.md",
-    "heading": "Select example rows to display.",
-    "word_count": 9,
-    "text": "# Select example rows to display.\npredictions.select(\"prediction\", \"label\", \"features\").show(5)"
-  },
-  {
     "filename": "spark.apache.org_docs_latest_ml-collaborative-filtering.html.md",
     "heading": "Generate top 10 user recommendations for a specified set of movies",
     "word_count": 22,
     "text": "## Generate top 10 user recommendations for a specified set of movies\n\nRefer to the [R API docs](https://spark.apache.org/docs/latest/api/R/reference/spark.als.html) for more details.\n\n```"
-  },
-  {
-    "filename": "spark.apache.org_docs_latest_ml-features.html.md",
-    "heading": "Feature Selectors[](https://spark.apache.org/docs/latest/ml-features.html#feature-selectors)",
-    "word_count": 3,
-    "text": "# Feature Selectors[](https://spark.apache.org/docs/latest/ml-features.html#feature-selectors)"
   },
   {
     "filename": "spark.apache.org_docs_latest_ml-features.html.md",
