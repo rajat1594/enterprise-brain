@@ -1,0 +1,1569 @@
+Spark 4.1.2 ScalaDoc < Back
+ __ __
+# Packages
+  * [__](https://spark.apache.org/docs/latest/api/scala/index.html "Permalink") package [root](https://spark.apache.org/docs/latest/api/scala/index.html)
+
+Definition Classes
+    [root](https://spark.apache.org/docs/latest/api/scala/index.html "_root_")
+  * [__](https://spark.apache.org/docs/latest/api/scala/org/index.html "Permalink") package [org](https://spark.apache.org/docs/latest/api/scala/org/index.html)
+
+Definition Classes
+    [root](https://spark.apache.org/docs/latest/api/scala/index.html "_root_")
+  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/index.html "Permalink") package [apache](https://spark.apache.org/docs/latest/api/scala/org/apache/index.html)
+
+Definition Classes
+    [org](https://spark.apache.org/docs/latest/api/scala/org/index.html "org")
+  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html "Permalink") package [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html "Core Spark functionality.")
+Core Spark functionality.
+Core Spark functionality. [org.apache.spark.SparkContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkContext.html "org.apache.spark.SparkContext") serves as the main entry point to Spark, while [org.apache.spark.rdd.RDD](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/rdd/RDD.html "org.apache.spark.rdd.RDD") is the data type representing a distributed collection, and provides most parallel operations.
+In addition, [org.apache.spark.rdd.PairRDDFunctions](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/rdd/PairRDDFunctions.html "org.apache.spark.rdd.PairRDDFunctions") contains operations available only on RDDs of key-value pairs, such as `groupByKey` and `join`; [org.apache.spark.rdd.DoubleRDDFunctions](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/rdd/DoubleRDDFunctions.html "org.apache.spark.rdd.DoubleRDDFunctions") contains operations available only on RDDs of Doubles; and [org.apache.spark.rdd.SequenceFileRDDFunctions](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/rdd/SequenceFileRDDFunctions.html "org.apache.spark.rdd.SequenceFileRDDFunctions") contains operations available on RDDs that can be saved as SequenceFiles. These operations are automatically available on any RDD of the right type (e.g. RDD[(Int, Int)] through implicit conversions.
+Java programmers should reference the [org.apache.spark.api.java](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/api/java/index.html "org.apache.spark.api.java") package for Spark programming APIs in Java.
+Classes and methods marked with  Experimental are user-facing features which have not been officially adopted by the Spark project. These are subject to change or removal in minor releases.
+Classes and methods marked with  Developer API are intended for advanced users want to extend Spark through lower level interfaces. These are subject to changes or removal in minor releases.
+
+Definition Classes
+    [apache](https://spark.apache.org/docs/latest/api/scala/org/apache/index.html "org.apache")
+  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/api/index.html "Permalink") package [api](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/api/index.html)
+
+Definition Classes
+    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html "org.apache.spark")
+  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/broadcast/index.html "Permalink") package [broadcast](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/broadcast/index.html "Spark's broadcast variables, used to broadcast immutable datasets to all nodes.")
+Spark's broadcast variables, used to broadcast immutable datasets to all nodes.
+Spark's broadcast variables, used to broadcast immutable datasets to all nodes.
+
+Definition Classes
+    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html "org.apache.spark")
+  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/graphx/index.html "Permalink") package [graphx](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/graphx/index.html "ALPHA COMPONENT GraphX is a graph processing framework built on top of Spark.")
+ALPHA COMPONENT GraphX is a graph processing framework built on top of Spark.
+ALPHA COMPONENT GraphX is a graph processing framework built on top of Spark.
+
+Definition Classes
+    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html "org.apache.spark")
+  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/input/index.html "Permalink") package [input](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/input/index.html)
+
+Definition Classes
+    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html "org.apache.spark")
+  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/io/index.html "Permalink") package [io](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/io/index.html "IO codecs used for compression.")
+IO codecs used for compression.
+IO codecs used for compression. See [org.apache.spark.io.CompressionCodec](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/io/CompressionCodec.html "org.apache.spark.io.CompressionCodec").
+
+Definition Classes
+    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html "org.apache.spark")
+  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/launcher/index.html "Permalink") package [launcher](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/launcher/index.html)
+
+Definition Classes
+    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html "org.apache.spark")
+  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/mapred/index.html "Permalink") package [mapred](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/mapred/index.html)
+
+Definition Classes
+    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html "org.apache.spark")
+  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/metrics/index.html "Permalink") package [metrics](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/metrics/index.html)
+
+Definition Classes
+    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html "org.apache.spark")
+  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ml/index.html "Permalink") package [ml](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ml/index.html "DataFrame-based machine learning APIs to let users quickly assemble and configure practical machine learning pipelines.")
+DataFrame-based machine learning APIs to let users quickly assemble and configure practical machine learning pipelines.
+DataFrame-based machine learning APIs to let users quickly assemble and configure practical machine learning pipelines.
+
+Definition Classes
+    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html "org.apache.spark")
+  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/mllib/index.html "Permalink") package [mllib](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/mllib/index.html "RDD-based machine learning APIs \(in maintenance mode\).")
+RDD-based machine learning APIs (in maintenance mode).
+RDD-based machine learning APIs (in maintenance mode).
+The `spark.mllib` package is in maintenance mode as of the Spark 2.0.0 release to encourage migration to the DataFrame-based APIs under the [org.apache.spark.ml](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ml/index.html "org.apache.spark.ml") package. While in maintenance mode,
+    * no new features in the RDD-based `spark.mllib` package will be accepted, unless they block implementing new features in the DataFrame-based `spark.ml` package;
+    * bug fixes in the RDD-based APIs will still be accepted.
+The developers will continue adding more features to the DataFrame-based APIs in the 2.x series to reach feature parity with the RDD-based APIs. And once we reach feature parity, this package will be deprecated.
+
+Definition Classes
+    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html "org.apache.spark")
+
+See also
+
+[SPARK-4591](https://issues.apache.org/jira/browse/SPARK-4591) to track the progress of feature parity
+  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/partial/index.html "Permalink") package [partial](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/partial/index.html "Support for approximate results.")
+Support for approximate results.
+Support for approximate results. This provides convenient api and also implementation for approximate calculation.
+
+Definition Classes
+    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html "org.apache.spark")
+
+See also
+
+[org.apache.spark.rdd.RDD.countApprox](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/rdd/RDD.html#countApprox\(timeout:Long,confidence:Double\):org.apache.spark.partial.PartialResult\[org.apache.spark.partial.BoundedDouble\])
+  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/paths/index.html "Permalink") package [paths](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/paths/index.html)
+
+Definition Classes
+    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html "org.apache.spark")
+  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/rdd/index.html "Permalink") package [rdd](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/rdd/index.html "Provides several RDD implementations.")
+Provides several RDD implementations.
+Provides several RDD implementations. See [org.apache.spark.rdd.RDD](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/rdd/RDD.html "org.apache.spark.rdd.RDD").
+
+Definition Classes
+    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html "org.apache.spark")
+  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/resource/index.html "Permalink") package [resource](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/resource/index.html)
+
+Definition Classes
+    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html "org.apache.spark")
+  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/scheduler/index.html "Permalink") package [scheduler](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/scheduler/index.html "Spark's scheduling components.")
+Spark's scheduling components.
+Spark's scheduling components. This includes the `org.apache.spark.scheduler.DAGScheduler` and lower level `org.apache.spark.scheduler.TaskScheduler`.
+
+Definition Classes
+    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html "org.apache.spark")
+  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/security/index.html "Permalink") package [security](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/security/index.html)
+
+Definition Classes
+    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html "org.apache.spark")
+  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/serializer/index.html "Permalink") package [serializer](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/serializer/index.html "Pluggable serializers for RDD and shuffle data.")
+Pluggable serializers for RDD and shuffle data.
+Pluggable serializers for RDD and shuffle data.
+
+Definition Classes
+    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html "org.apache.spark")
+
+See also
+
+[org.apache.spark.serializer.Serializer](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/serializer/Serializer.html "org.apache.spark.serializer.Serializer")
+  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/shuffle/index.html "Permalink") package [shuffle](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/shuffle/index.html)
+
+Definition Classes
+    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html "org.apache.spark")
+  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/sql/index.html "Permalink") package [sql](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/sql/index.html "Allows the execution of relational queries, including those expressed in SQL using Spark.")
+Allows the execution of relational queries, including those expressed in SQL using Spark.
+Allows the execution of relational queries, including those expressed in SQL using Spark.
+
+Definition Classes
+    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html "org.apache.spark")
+  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/status/index.html "Permalink") package [status](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/status/index.html)
+
+Definition Classes
+    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html "org.apache.spark")
+  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/storage/index.html "Permalink") package [storage](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/storage/index.html)
+
+Definition Classes
+    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html "org.apache.spark")
+  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/streaming/index.html "Permalink") package [streaming](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/streaming/index.html "Spark Streaming functionality.")
+Spark Streaming functionality.
+Spark Streaming functionality. [org.apache.spark.streaming.StreamingContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/streaming/StreamingContext.html "org.apache.spark.streaming.StreamingContext") serves as the main entry point to Spark Streaming, while [org.apache.spark.streaming.dstream.DStream](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/streaming/dstream/DStream.html "org.apache.spark.streaming.dstream.DStream") is the data type representing a continuous sequence of RDDs, representing a continuous stream of data.
+In addition, [org.apache.spark.streaming.dstream.PairDStreamFunctions](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/streaming/dstream/PairDStreamFunctions.html "org.apache.spark.streaming.dstream.PairDStreamFunctions") contains operations available only on DStreams of key-value pairs, such as `groupByKey` and `reduceByKey`. These operations are automatically available on any DStream of the right type (e.g. DStream[(Int, Int)] through implicit conversions.
+For the Java API of Spark Streaming, take a look at the [org.apache.spark.streaming.api.java.JavaStreamingContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/streaming/api/java/JavaStreamingContext.html "org.apache.spark.streaming.api.java.JavaStreamingContext") which serves as the entry point, and the [org.apache.spark.streaming.api.java.JavaDStream](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/streaming/api/java/JavaDStream.html "org.apache.spark.streaming.api.java.JavaDStream") and the [org.apache.spark.streaming.api.java.JavaPairDStream](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/streaming/api/java/JavaPairDStream.html "org.apache.spark.streaming.api.java.JavaPairDStream") which have the DStream functionality.
+
+Definition Classes
+    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html "org.apache.spark")
+  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ui/index.html "Permalink") package [ui](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ui/index.html)
+
+Definition Classes
+    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html "org.apache.spark")
+  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/unsafe/index.html "Permalink") package [unsafe](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/unsafe/index.html)
+
+Definition Classes
+    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html "org.apache.spark")
+  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/util/index.html "Permalink") package [util](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/util/index.html "Spark utilities.")
+Spark utilities.
+Spark utilities.
+
+Definition Classes
+    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html "org.apache.spark")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/Aggregator.html ":: DeveloperApi :: A set of functions used to aggregate data.")[Aggregator](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/Aggregator.html ":: DeveloperApi :: A set of functions used to aggregate data.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext$.html) [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html ":: Experimental :: A TaskContext with extra contextual info and tooling for tasks in a barrier stage.")[BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html ":: Experimental :: A TaskContext with extra contextual info and tooling for tasks in a barrier stage.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskInfo.html ":: Experimental :: Carries all task infos of a barrier task.")[BarrierTaskInfo](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskInfo.html ":: Experimental :: Carries all task infos of a barrier task.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BreakingChangeInfo.html "Additional information if the error was caused by a breaking change.")[BreakingChangeInfo](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BreakingChangeInfo.html "Additional information if the error was caused by a breaking change.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ComplexFutureAction.html "A FutureAction for actions that could trigger multiple Spark jobs.")[ComplexFutureAction](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ComplexFutureAction.html "A FutureAction for actions that could trigger multiple Spark jobs.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ContextAwareIterator.html ":: DeveloperApi :: A TaskContext aware iterator.")[ContextAwareIterator](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ContextAwareIterator.html ":: DeveloperApi :: A TaskContext aware iterator.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/Dependency.html ":: DeveloperApi :: Base class for dependencies.")[Dependency](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/Dependency.html ":: DeveloperApi :: Base class for dependencies.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ErrorClassesJsonReader.html "A reader to load error information from one or more JSON files.")[ErrorClassesJsonReader](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ErrorClassesJsonReader.html "A reader to load error information from one or more JSON files.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ExceptionFailure.html ":: DeveloperApi :: Task failed due to a runtime exception.")[ExceptionFailure](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ExceptionFailure.html ":: DeveloperApi :: Task failed due to a runtime exception.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ExecutorLostFailure.html ":: DeveloperApi :: The task failed because the executor that it was running on was lost.")[ExecutorLostFailure](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ExecutorLostFailure.html ":: DeveloperApi :: The task failed because the executor that it was running on was lost.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/FetchFailed.html ":: DeveloperApi :: Task failed to fetch shuffle data from a remote node.")[FetchFailed](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/FetchFailed.html ":: DeveloperApi :: Task failed to fetch shuffle data from a remote node.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/FutureAction.html "A future for the result of an action to support cancellation.")[FutureAction](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/FutureAction.html "A future for the result of an action to support cancellation.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/HashPartitioner.html "A org.apache.spark.Partitioner that implements hash-based partitioning using Java's Object.hashCode.")[HashPartitioner](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/HashPartitioner.html "A org.apache.spark.Partitioner that implements hash-based partitioning using Java's Object.hashCode.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/InterruptibleIterator.html ":: DeveloperApi :: An iterator that wraps around an existing iterator to provide task killing functionality.")[InterruptibleIterator](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/InterruptibleIterator.html ":: DeveloperApi :: An iterator that wraps around an existing iterator to provide task killing functionality.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/JobExecutionStatus.html)[JobExecutionStatus](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/JobExecutionStatus.html)
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/JobSubmitter.html "Handle via which a "run" function passed to a ComplexFutureAction can submit jobs for execution.")[JobSubmitter](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/JobSubmitter.html "Handle via which a "run" function passed to a ComplexFutureAction can submit jobs for execution.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/MitigationConfig.html "A spark config flag that can be used to mitigate a breaking change.")[MitigationConfig](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/MitigationConfig.html "A spark config flag that can be used to mitigate a breaking change.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/NarrowDependency.html ":: DeveloperApi :: Base class for dependencies where each partition of the child RDD depends on a small number of partitions of the parent RDD.")[NarrowDependency](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/NarrowDependency.html ":: DeveloperApi :: Base class for dependencies where each partition of the child RDD depends on a small number of partitions of the parent RDD.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/OneToOneDependency.html ":: DeveloperApi :: Represents a one-to-one dependency between partitions of the parent and child RDDs.")[OneToOneDependency](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/OneToOneDependency.html ":: DeveloperApi :: Represents a one-to-one dependency between partitions of the parent and child RDDs.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/Partition.html "An identifier for a partition in an RDD.")[Partition](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/Partition.html "An identifier for a partition in an RDD.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/PartitionEvaluator.html "An evaluator for computing RDD partitions.")[PartitionEvaluator](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/PartitionEvaluator.html "An evaluator for computing RDD partitions.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/PartitionEvaluatorFactory.html "A factory to create PartitionEvaluator.")[PartitionEvaluatorFactory](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/PartitionEvaluatorFactory.html "A factory to create PartitionEvaluator.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/Partitioner$.html) [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/Partitioner.html "An object that defines how the elements in a key-value pair RDD are partitioned by key.")[Partitioner](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/Partitioner.html "An object that defines how the elements in a key-value pair RDD are partitioned by key.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/QueryContext.html "Query context of a SparkThrowable.")[QueryContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/QueryContext.html "Query context of a SparkThrowable.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/QueryContextType.html "The type of QueryContext.")[QueryContextType](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/QueryContextType.html "The type of QueryContext.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/RangeDependency.html ":: DeveloperApi :: Represents a one-to-one dependency between ranges of partitions in the parent and child RDDs.")[RangeDependency](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/RangeDependency.html ":: DeveloperApi :: Represents a one-to-one dependency between ranges of partitions in the parent and child RDDs.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/RangePartitioner.html "A org.apache.spark.Partitioner that partitions sortable records by range into roughly equal ranges.")[RangePartitioner](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/RangePartitioner.html "A org.apache.spark.Partitioner that partitions sortable records by range into roughly equal ranges.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ReadOnlySparkConf.html)[ReadOnlySparkConf](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ReadOnlySparkConf.html)
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/Resubmitted$.html ":: DeveloperApi :: A org.apache.spark.scheduler.ShuffleMapTask that completed successfully earlier, but we lost the executor before the stage completed.")[Resubmitted](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/Resubmitted$.html ":: DeveloperApi :: A org.apache.spark.scheduler.ShuffleMapTask that completed successfully earlier, but we lost the executor before the stage completed.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SerializableWritable.html)[SerializableWritable](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SerializableWritable.html)
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ShuffleDependency$.html) [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ShuffleDependency.html ":: DeveloperApi :: Represents a dependency on the output of a shuffle stage.")[ShuffleDependency](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ShuffleDependency.html ":: DeveloperApi :: Represents a dependency on the output of a shuffle stage.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ShuffleStatusNotFoundException.html)[ShuffleStatusNotFoundException](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ShuffleStatusNotFoundException.html)
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SimpleFutureAction.html "A FutureAction holding the result of an action that triggers a single job.")[SimpleFutureAction](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SimpleFutureAction.html "A FutureAction holding the result of an action that triggers a single job.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkConf.html "Configuration for a Spark application.")[SparkConf](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkConf.html "Configuration for a Spark application.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkContext$.html "The SparkContext object contains a number of implicit conversions and parameters for use with various Spark features.") [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkContext.html "Main entry point for Spark functionality.")[SparkContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkContext.html "Main entry point for Spark functionality.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkEnv$.html) [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkEnv.html ":: DeveloperApi :: Holds all the runtime environment objects for a running Spark instance \(either master or worker\), including the serializer, RpcEnv, block manager, map output tracker, etc.")[SparkEnv](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkEnv.html ":: DeveloperApi :: Holds all the runtime environment objects for a running Spark instance \(either master or worker\), including the serializer, RpcEnv, block manager, map output tracker, etc.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkException$.html) [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkException.html)[SparkException](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkException.html)
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkExecutorInfo.html "Exposes information about Spark Executors.")[SparkExecutorInfo](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkExecutorInfo.html "Exposes information about Spark Executors.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkFiles$.html "Resolves paths to files added through SparkContext.addFile\(\).")[SparkFiles](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkFiles$.html "Resolves paths to files added through SparkContext.addFile\(\).")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkFirehoseListener.html "Class that allows users to receive all SparkListener events.")[SparkFirehoseListener](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkFirehoseListener.html "Class that allows users to receive all SparkListener events.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkJobInfo.html "Exposes information about Spark Jobs.")[SparkJobInfo](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkJobInfo.html "Exposes information about Spark Jobs.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkStageInfo.html "Exposes information about Spark Stages.")[SparkStageInfo](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkStageInfo.html "Exposes information about Spark Stages.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkStatusTracker.html "Low-level status reporting APIs for monitoring job and stage progress.")[SparkStatusTracker](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkStatusTracker.html "Low-level status reporting APIs for monitoring job and stage progress.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkThrowable.html "Interface mixed into Throwables thrown from Spark.")[SparkThrowable](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkThrowable.html "Interface mixed into Throwables thrown from Spark.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/StringSubstitutor.html)[StringSubstitutor](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/StringSubstitutor.html)
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/Success$.html ":: DeveloperApi :: Task succeeded.")[Success](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/Success$.html ":: DeveloperApi :: Task succeeded.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskCommitDenied.html ":: DeveloperApi :: Task requested the driver to commit, but was denied.")[TaskCommitDenied](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskCommitDenied.html ":: DeveloperApi :: Task requested the driver to commit, but was denied.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext$.html) [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "Contextual information about a task which can be read or mutated during execution.")[TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "Contextual information about a task which can be read or mutated during execution.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskEndReason.html ":: DeveloperApi :: Various possible reasons why a task ended.")[TaskEndReason](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskEndReason.html ":: DeveloperApi :: Various possible reasons why a task ended.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskFailedReason.html ":: DeveloperApi :: Various possible reasons why a task failed.")[TaskFailedReason](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskFailedReason.html ":: DeveloperApi :: Various possible reasons why a task failed.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskKilled.html ":: DeveloperApi :: Task was killed intentionally and needs to be rescheduled.")[TaskKilled](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskKilled.html ":: DeveloperApi :: Task was killed intentionally and needs to be rescheduled.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskKilledException.html ":: DeveloperApi :: Exception thrown when a task is explicitly killed \(i.e., task failure is expected\).")[TaskKilledException](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskKilledException.html ":: DeveloperApi :: Exception thrown when a task is explicitly killed \(i.e., task failure is expected\).")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskResultLost$.html ":: DeveloperApi :: The task finished successfully, but the result was lost from the executor's block manager before it was fetched.")[TaskResultLost](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskResultLost$.html ":: DeveloperApi :: The task finished successfully, but the result was lost from the executor's block manager before it was fetched.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/UnknownReason$.html ":: DeveloperApi :: We don't know why the task ended -- for example, because of a ClassNotFound exception when deserializing the task result.")[UnknownReason](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/UnknownReason$.html ":: DeveloperApi :: We don't know why the task ended -- for example, because of a ClassNotFound exception when deserializing the task result.")
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/WritableConverter$.html)[WritableConverter](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/WritableConverter$.html)
+  * [](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/WritableFactory$.html)[WritableFactory](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/WritableFactory$.html)
+
+[c](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext$.html "See companion object")
+[org](https://spark.apache.org/docs/latest/api/scala/org/index.html "org").[apache](https://spark.apache.org/docs/latest/api/scala/org/apache/index.html "org.apache").[spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html "org.apache.spark")
+#  [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext$.html "See companion object")[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "Permalink")
+###
+Companion [object BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext$.html "See companion object")
+####  class BarrierTaskContext extends [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext") with Logging
+Experimental
+A [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext") with extra contextual info and tooling for tasks in a barrier stage. Use [BarrierTaskContext#get](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext$.html#get\(\):org.apache.spark.BarrierTaskContext) to obtain the barrier context for a running barrier task.
+
+Annotations
+     @Experimental() @Since("2.4.0")
+
+Source
+    [BarrierTaskContext.scala](https://github.com/apache/spark/tree/v4.1.2/core/src/main/scala/org/apache/spark/BarrierTaskContext.scala)
+Linear Supertypes
+Logging, [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext"), [Serializable](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/Serializable.html#java.io.Serializable "java.io.Serializable"), AnyRef, Any
+__ __
+Ordering
+  1. Alphabetic
+  2. By Inheritance
+
+Inherited
+
+  1. BarrierTaskContext
+  2. Logging
+  3. TaskContext
+  4. Serializable
+  5. AnyRef
+  6. Any
+
+  1. Hide All
+  2. Show All
+
+Visibility
+  1. Public
+  2. Protected
+
+### Type Members
+  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#LogStringContextextendsAnyRef "Permalink") implicit  class LogStringContext extends AnyRef
+
+Definition Classes
+    Logging
+
+### Value Members
+  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#!=\(x$1:Any\):Boolean "Permalink") final  def !=(arg0: Any): Boolean
+
+Definition Classes
+    AnyRef → Any
+  2. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html###:Int "Permalink") final  def ##: Int
+
+Definition Classes
+    AnyRef → Any
+  3. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#==\(x$1:Any\):Boolean "Permalink") final  def ==(arg0: Any): Boolean
+
+Definition Classes
+    AnyRef → Any
+  4. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#MDC\(key:org.apache.spark.internal.LogKey,value:Any\):org.apache.spark.internal.MDC "Permalink") def MDC(key: LogKey, value: Any): MDC
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  5. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#addTaskCompletionListener\(listener:org.apache.spark.util.TaskCompletionListener\):BarrierTaskContext.this.type "Permalink") def addTaskCompletionListener(listener: [TaskCompletionListener](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/util/TaskCompletionListener.html "org.apache.spark.util.TaskCompletionListener")): [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext").this.type
+Adds a (Java friendly) listener to be executed on task completion.
+Adds a (Java friendly) listener to be executed on task completion. This will be called in all situations - success, failure, or cancellation. Adding a listener to an already completed task will result in that listener being called immediately.
+Two listeners registered in the same thread will be invoked in reverse order of registration if the task completes after both are registered. There are no ordering guarantees for listeners registered in different threads, or for listeners registered after the task completes. Listeners are guaranteed to execute sequentially.
+An example use is for HadoopRDD to register a callback to close the input stream.
+Exceptions thrown by the listener will result in failure of the task.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  6. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#addTaskCompletionListener\[U\]\(f:org.apache.spark.TaskContext=>U\):org.apache.spark.TaskContext "Permalink") def addTaskCompletionListener[U](f: ([TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")) => U): [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+Adds a listener in the form of a Scala closure to be executed on task completion.
+Adds a listener in the form of a Scala closure to be executed on task completion. This will be called in all situations - success, failure, or cancellation. Adding a listener to an already completed task will result in that listener being called immediately.
+An example use is for HadoopRDD to register a callback to close the input stream.
+Exceptions thrown by the listener will result in failure of the task.
+
+Definition Classes
+    [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  7. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#addTaskFailureListener\(listener:org.apache.spark.util.TaskFailureListener\):BarrierTaskContext.this.type "Permalink") def addTaskFailureListener(listener: [TaskFailureListener](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/util/TaskFailureListener.html "org.apache.spark.util.TaskFailureListener")): [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext").this.type
+Adds a listener to be executed on task failure (which includes completion listener failure, if the task body did not already fail).
+Adds a listener to be executed on task failure (which includes completion listener failure, if the task body did not already fail). Adding a listener to an already failed task will result in that listener being called immediately.
+Note: Prior to Spark 3.4.0, failure listeners were only invoked if the main task body failed.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  8. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#addTaskFailureListener\(f:\(org.apache.spark.TaskContext,Throwable\)=>Unit\):org.apache.spark.TaskContext "Permalink") def addTaskFailureListener(f: ([TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext"), Throwable) => Unit): [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+Adds a listener to be executed on task failure (which includes completion listener failure, if the task body did not already fail).
+Adds a listener to be executed on task failure (which includes completion listener failure, if the task body did not already fail). Adding a listener to an already failed task will result in that listener being called immediately.
+Note: Prior to Spark 3.4.0, failure listeners were only invoked if the main task body failed.
+
+Definition Classes
+    [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  9. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#allGather\(message:String\):Array\[String\] "Permalink") def allGather(message: String): Array[String]
+Blocks until all tasks in the same stage have reached this routine.
+Blocks until all tasks in the same stage have reached this routine. Each task passes in a message and returns with a list of all the messages passed in by each of those tasks.
+CAUTION! The allGather method requires the same precautions as the barrier method
+The message is type String rather than Array[Byte] because it is more convenient for the user at the cost of worse performance.
+
+Annotations
+     @Experimental() @Since("3.0.0")
+  10. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#asInstanceOf\[T0\]:T0 "Permalink") final  def asInstanceOf[T0]: T0
+
+Definition Classes
+    Any
+  11. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#attemptNumber\(\):Int "Permalink") def attemptNumber(): Int
+How many times this task has been attempted.
+How many times this task has been attempted. The first task attempt will be assigned attemptNumber = 0, and subsequent attempts will have increasing attempt numbers.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  12. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#barrier\(\):Unit "Permalink") def barrier(): Unit
+Sets a global barrier and waits until all tasks in this stage hit this barrier.
+Sets a global barrier and waits until all tasks in this stage hit this barrier. Similar to MPI_Barrier function in MPI, the barrier() function call blocks until all tasks in the same stage have reached this routine.
+CAUTION! In a barrier stage, each task must have the same number of barrier() calls, in all possible code branches. Otherwise, you may get the job hanging or a SparkException after timeout. Some examples of **misuses** are listed below: 1. Only call barrier() function on a subset of all the tasks in the same barrier stage, it shall lead to timeout of the function call.
+
+```
+rdd.barrier().mapPartitions { iter =>
+    val context = BarrierTaskContext.get()
+    if (context.partitionId() == 0) {
+        // Do nothing.
+    } else {
+        context.barrier()
+    }
+    iter
+}
+```
+
+2. Include barrier() function in a try-catch code block, this may lead to timeout of the second function call.
+
+```
+rdd.barrier().mapPartitions { iter =>
+    val context = BarrierTaskContext.get()
+    try {
+        // Do something that might throw an Exception.
+        doSomething()
+        context.barrier()
+    } catch {
+        case e: Exception => logWarning("...", e)
+    }
+    context.barrier()
+    iter
+}
+```
+
+Annotations
+     @Experimental() @Since("2.4.0")
+  13. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#clone\(\):Object "Permalink") def clone(): AnyRef
+
+Attributes
+    protected[lang]
+
+Definition Classes
+    AnyRef
+
+Annotations
+     @throws(classOf[java.lang.CloneNotSupportedException]) @IntrinsicCandidate() @native()
+  14. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#cpus\(\):Int "Permalink") def cpus(): Int
+CPUs allocated to the task.
+CPUs allocated to the task.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  15. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#eq\(x$1:AnyRef\):Boolean "Permalink") final  def eq(arg0: AnyRef): Boolean
+
+Definition Classes
+    AnyRef
+  16. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#equals\(x$1:Object\):Boolean "Permalink") def equals(arg0: AnyRef): Boolean
+
+Definition Classes
+    AnyRef → Any
+  17. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#getClass\(\):Class\[_\] "Permalink") final  def getClass(): [Class](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Class.html#java.lang.Class "java.lang.Class")[_ <: AnyRef]
+
+Definition Classes
+    AnyRef → Any
+
+Annotations
+     @IntrinsicCandidate() @native()
+  18. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#getLocalProperty\(key:String\):String "Permalink") def getLocalProperty(key: String): String
+Get a local property set upstream in the driver, or null if it is missing.
+Get a local property set upstream in the driver, or null if it is missing. See also `org.apache.spark.SparkContext.setLocalProperty`.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  19. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#getMetricsSources\(sourceName:String\):Seq\[org.apache.spark.metrics.source.Source\] "Permalink") def getMetricsSources(sourceName: String): Seq[Source]
+::DeveloperApi:: Returns all metrics sources with the given name which are associated with the instance which runs the task.
+::DeveloperApi:: Returns all metrics sources with the given name which are associated with the instance which runs the task. For more information see `org.apache.spark.metrics.MetricsSystem`.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  20. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#getTaskInfos\(\):Array\[org.apache.spark.BarrierTaskInfo\] "Permalink") def getTaskInfos(): Array[[BarrierTaskInfo](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskInfo.html "org.apache.spark.BarrierTaskInfo")]
+Returns [BarrierTaskInfo](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskInfo.html "org.apache.spark.BarrierTaskInfo") for all tasks in this barrier stage, ordered by partition ID.
+Returns [BarrierTaskInfo](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskInfo.html "org.apache.spark.BarrierTaskInfo") for all tasks in this barrier stage, ordered by partition ID.
+
+Annotations
+     @Experimental() @Since("2.4.0")
+  21. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#hashCode\(\):Int "Permalink") def hashCode(): Int
+
+Definition Classes
+    AnyRef → Any
+
+Annotations
+     @IntrinsicCandidate() @native()
+  22. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#initializeLogIfNecessary\(isInterpreter:Boolean,silent:Boolean\):Boolean "Permalink") def initializeLogIfNecessary(isInterpreter: Boolean, silent: Boolean): Boolean
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  23. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#initializeLogIfNecessary\(isInterpreter:Boolean\):Unit "Permalink") def initializeLogIfNecessary(isInterpreter: Boolean): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  24. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#isCompleted\(\):Boolean "Permalink") def isCompleted(): Boolean
+Returns true if the task has completed.
+Returns true if the task has completed.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  25. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#isFailed\(\):Boolean "Permalink") def isFailed(): Boolean
+Returns true if the task has failed.
+Returns true if the task has failed.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  26. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#isInstanceOf\[T0\]:Boolean "Permalink") final  def isInstanceOf[T0]: Boolean
+
+Definition Classes
+    Any
+  27. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#isInterrupted\(\):Boolean "Permalink") def isInterrupted(): Boolean
+Returns true if the task has been killed.
+Returns true if the task has been killed.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  28. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#isTraceEnabled\(\):Boolean "Permalink") def isTraceEnabled(): Boolean
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  29. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#log:org.slf4j.Logger "Permalink") def log: Logger
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  30. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logBasedOnLevel\(level:org.slf4j.event.Level\)\(f:=>org.apache.spark.internal.MessageWithContext\):Unit "Permalink") def logBasedOnLevel(level: Level)(f: => MessageWithContext): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  31. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logDebug\(msg:=>String,throwable:Throwable\):Unit "Permalink") def logDebug(msg: => String, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  32. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logDebug\(entry:org.apache.spark.internal.LogEntry,throwable:Throwable\):Unit "Permalink") def logDebug(entry: LogEntry, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  33. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logDebug\(entry:org.apache.spark.internal.LogEntry\):Unit "Permalink") def logDebug(entry: LogEntry): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  34. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logDebug\(msg:=>String\):Unit "Permalink") def logDebug(msg: => String): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  35. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logError\(msg:=>String,throwable:Throwable\):Unit "Permalink") def logError(msg: => String, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  36. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logError\(entry:org.apache.spark.internal.LogEntry,throwable:Throwable\):Unit "Permalink") def logError(entry: LogEntry, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  37. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logError\(entry:org.apache.spark.internal.LogEntry\):Unit "Permalink") def logError(entry: LogEntry): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  38. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logError\(msg:=>String\):Unit "Permalink") def logError(msg: => String): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  39. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logInfo\(msg:=>String,throwable:Throwable\):Unit "Permalink") def logInfo(msg: => String, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  40. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logInfo\(entry:org.apache.spark.internal.LogEntry,throwable:Throwable\):Unit "Permalink") def logInfo(entry: LogEntry, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  41. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logInfo\(entry:org.apache.spark.internal.LogEntry\):Unit "Permalink") def logInfo(entry: LogEntry): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  42. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logInfo\(msg:=>String\):Unit "Permalink") def logInfo(msg: => String): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  43. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logName:String "Permalink") def logName: [String](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html#java.lang.String "java.lang.String")
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  44. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logTrace\(msg:=>String,throwable:Throwable\):Unit "Permalink") def logTrace(msg: => String, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  45. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logTrace\(entry:org.apache.spark.internal.LogEntry,throwable:Throwable\):Unit "Permalink") def logTrace(entry: LogEntry, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  46. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logTrace\(entry:org.apache.spark.internal.LogEntry\):Unit "Permalink") def logTrace(entry: LogEntry): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  47. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logTrace\(msg:=>String\):Unit "Permalink") def logTrace(msg: => String): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  48. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logWarning\(msg:=>String,throwable:Throwable\):Unit "Permalink") def logWarning(msg: => String, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  49. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logWarning\(entry:org.apache.spark.internal.LogEntry,throwable:Throwable\):Unit "Permalink") def logWarning(entry: LogEntry, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  50. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logWarning\(entry:org.apache.spark.internal.LogEntry\):Unit "Permalink") def logWarning(entry: LogEntry): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  51. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logWarning\(msg:=>String\):Unit "Permalink") def logWarning(msg: => String): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  52. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#ne\(x$1:AnyRef\):Boolean "Permalink") final  def ne(arg0: AnyRef): Boolean
+
+Definition Classes
+    AnyRef
+  53. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#notify\(\):Unit "Permalink") final  def notify(): Unit
+
+Definition Classes
+    AnyRef
+
+Annotations
+     @IntrinsicCandidate() @native()
+  54. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#notifyAll\(\):Unit "Permalink") final  def notifyAll(): Unit
+
+Definition Classes
+    AnyRef
+
+Annotations
+     @IntrinsicCandidate() @native()
+  55. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#numPartitions\(\):Int "Permalink") def numPartitions(): Int
+Total number of partitions in the stage that this task belongs to.
+Total number of partitions in the stage that this task belongs to.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  56. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#partitionId\(\):Int "Permalink") def partitionId(): Int
+The ID of the RDD partition that is computed by this task.
+The ID of the RDD partition that is computed by this task.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  57. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#resources\(\):Map\[String,org.apache.spark.resource.ResourceInformation\] "Permalink") def resources(): Map[String, [ResourceInformation](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/resource/ResourceInformation.html "org.apache.spark.resource.ResourceInformation")]
+Resources allocated to the task.
+Resources allocated to the task. The key is the resource name and the value is information about the resource. Please refer to [org.apache.spark.resource.ResourceInformation](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/resource/ResourceInformation.html "org.apache.spark.resource.ResourceInformation") for specifics.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  58. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#resourcesJMap\(\):java.util.Map\[String,org.apache.spark.resource.ResourceInformation\] "Permalink") def resourcesJMap(): [Map](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html#java.util.Map "java.util.Map")[String, [ResourceInformation](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/resource/ResourceInformation.html "org.apache.spark.resource.ResourceInformation")]
+(java-specific) Resources allocated to the task.
+(java-specific) Resources allocated to the task. The key is the resource name and the value is information about the resource. Please refer to [org.apache.spark.resource.ResourceInformation](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/resource/ResourceInformation.html "org.apache.spark.resource.ResourceInformation") for specifics.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  59. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#stageAttemptNumber\(\):Int "Permalink") def stageAttemptNumber(): Int
+How many times the stage that this task belongs to has been attempted.
+How many times the stage that this task belongs to has been attempted. The first stage attempt will be assigned stageAttemptNumber = 0, and subsequent attempts will have increasing attempt numbers.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  60. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#stageId\(\):Int "Permalink") def stageId(): Int
+The ID of the stage that this task belong to.
+The ID of the stage that this task belong to.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  61. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#synchronized\[T0\]\(x$1:=>T0\):T0 "Permalink") final  def synchronized[T0](arg0: => T0): T0
+
+Definition Classes
+    AnyRef
+  62. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#taskAttemptId\(\):Long "Permalink") def taskAttemptId(): Long
+An ID that is unique to this task attempt (within the same SparkContext, no two task attempts will share the same attempt ID).
+An ID that is unique to this task attempt (within the same SparkContext, no two task attempts will share the same attempt ID). This is roughly equivalent to Hadoop's TaskAttemptID.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  63. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#taskMetrics\(\):org.apache.spark.executor.TaskMetrics "Permalink") def taskMetrics(): TaskMetrics
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  64. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#toString\(\):String "Permalink") def toString(): [String](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html#java.lang.String "java.lang.String")
+
+Definition Classes
+    AnyRef → Any
+  65. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#wait\(x$1:Long,x$2:Int\):Unit "Permalink") final  def wait(arg0: Long, arg1: Int): Unit
+
+Definition Classes
+    AnyRef
+
+Annotations
+     @throws(classOf[java.lang.InterruptedException])
+  66. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#wait\(x$1:Long\):Unit "Permalink") final  def wait(arg0: Long): Unit
+
+Definition Classes
+    AnyRef
+
+Annotations
+     @throws(classOf[java.lang.InterruptedException]) @native()
+  67. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#wait\(\):Unit "Permalink") final  def wait(): Unit
+
+Definition Classes
+    AnyRef
+
+Annotations
+     @throws(classOf[java.lang.InterruptedException])
+  68. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#withLogContext\(context:java.util.Map\[String,String\]\)\(body:=>Unit\):Unit "Permalink") def withLogContext(context: [Map](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html#java.util.Map "java.util.Map")[String, String])(body: => Unit): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+
+### Deprecated Value Members
+  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#finalize\(\):Unit "Permalink") def finalize(): Unit
+
+Attributes
+    protected[lang]
+
+Definition Classes
+    AnyRef
+
+Annotations
+     @throws(classOf[java.lang.Throwable]) @Deprecated
+
+Deprecated
+
+_(Since version 9)_
+
+### Inherited from Logging
+### Value Members
+  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#MDC\(key:org.apache.spark.internal.LogKey,value:Any\):org.apache.spark.internal.MDC "Permalink") def MDC(key: LogKey, value: Any): MDC
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  2. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#initializeLogIfNecessary\(isInterpreter:Boolean,silent:Boolean\):Boolean "Permalink") def initializeLogIfNecessary(isInterpreter: Boolean, silent: Boolean): Boolean
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  3. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#initializeLogIfNecessary\(isInterpreter:Boolean\):Unit "Permalink") def initializeLogIfNecessary(isInterpreter: Boolean): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  4. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#isTraceEnabled\(\):Boolean "Permalink") def isTraceEnabled(): Boolean
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  5. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#log:org.slf4j.Logger "Permalink") def log: Logger
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  6. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logBasedOnLevel\(level:org.slf4j.event.Level\)\(f:=>org.apache.spark.internal.MessageWithContext\):Unit "Permalink") def logBasedOnLevel(level: Level)(f: => MessageWithContext): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  7. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logDebug\(msg:=>String,throwable:Throwable\):Unit "Permalink") def logDebug(msg: => String, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  8. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logDebug\(entry:org.apache.spark.internal.LogEntry,throwable:Throwable\):Unit "Permalink") def logDebug(entry: LogEntry, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  9. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logDebug\(entry:org.apache.spark.internal.LogEntry\):Unit "Permalink") def logDebug(entry: LogEntry): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  10. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logDebug\(msg:=>String\):Unit "Permalink") def logDebug(msg: => String): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  11. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logError\(msg:=>String,throwable:Throwable\):Unit "Permalink") def logError(msg: => String, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  12. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logError\(entry:org.apache.spark.internal.LogEntry,throwable:Throwable\):Unit "Permalink") def logError(entry: LogEntry, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  13. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logError\(entry:org.apache.spark.internal.LogEntry\):Unit "Permalink") def logError(entry: LogEntry): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  14. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logError\(msg:=>String\):Unit "Permalink") def logError(msg: => String): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  15. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logInfo\(msg:=>String,throwable:Throwable\):Unit "Permalink") def logInfo(msg: => String, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  16. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logInfo\(entry:org.apache.spark.internal.LogEntry,throwable:Throwable\):Unit "Permalink") def logInfo(entry: LogEntry, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  17. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logInfo\(entry:org.apache.spark.internal.LogEntry\):Unit "Permalink") def logInfo(entry: LogEntry): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  18. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logInfo\(msg:=>String\):Unit "Permalink") def logInfo(msg: => String): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  19. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logName:String "Permalink") def logName: [String](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html#java.lang.String "java.lang.String")
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  20. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logTrace\(msg:=>String,throwable:Throwable\):Unit "Permalink") def logTrace(msg: => String, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  21. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logTrace\(entry:org.apache.spark.internal.LogEntry,throwable:Throwable\):Unit "Permalink") def logTrace(entry: LogEntry, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  22. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logTrace\(entry:org.apache.spark.internal.LogEntry\):Unit "Permalink") def logTrace(entry: LogEntry): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  23. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logTrace\(msg:=>String\):Unit "Permalink") def logTrace(msg: => String): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  24. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logWarning\(msg:=>String,throwable:Throwable\):Unit "Permalink") def logWarning(msg: => String, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  25. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logWarning\(entry:org.apache.spark.internal.LogEntry,throwable:Throwable\):Unit "Permalink") def logWarning(entry: LogEntry, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  26. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logWarning\(entry:org.apache.spark.internal.LogEntry\):Unit "Permalink") def logWarning(entry: LogEntry): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  27. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logWarning\(msg:=>String\):Unit "Permalink") def logWarning(msg: => String): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  28. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#withLogContext\(context:java.util.Map\[String,String\]\)\(body:=>Unit\):Unit "Permalink") def withLogContext(context: [Map](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html#java.util.Map "java.util.Map")[String, String])(body: => Unit): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+
+### Inherited from [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+### Value Members
+  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#addTaskCompletionListener\[U\]\(f:org.apache.spark.TaskContext=>U\):org.apache.spark.TaskContext "Permalink") def addTaskCompletionListener[U](f: ([TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")) => U): [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+Adds a listener in the form of a Scala closure to be executed on task completion.
+Adds a listener in the form of a Scala closure to be executed on task completion. This will be called in all situations - success, failure, or cancellation. Adding a listener to an already completed task will result in that listener being called immediately.
+An example use is for HadoopRDD to register a callback to close the input stream.
+Exceptions thrown by the listener will result in failure of the task.
+
+Definition Classes
+    [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  2. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#addTaskFailureListener\(f:\(org.apache.spark.TaskContext,Throwable\)=>Unit\):org.apache.spark.TaskContext "Permalink") def addTaskFailureListener(f: ([TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext"), Throwable) => Unit): [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+Adds a listener to be executed on task failure (which includes completion listener failure, if the task body did not already fail).
+Adds a listener to be executed on task failure (which includes completion listener failure, if the task body did not already fail). Adding a listener to an already failed task will result in that listener being called immediately.
+Note: Prior to Spark 3.4.0, failure listeners were only invoked if the main task body failed.
+
+Definition Classes
+    [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+
+### Inherited from AnyRef
+### Value Members
+  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#!=\(x$1:Any\):Boolean "Permalink") final  def !=(arg0: Any): Boolean
+
+Definition Classes
+    AnyRef → Any
+  2. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html###:Int "Permalink") final  def ##: Int
+
+Definition Classes
+    AnyRef → Any
+  3. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#==\(x$1:Any\):Boolean "Permalink") final  def ==(arg0: Any): Boolean
+
+Definition Classes
+    AnyRef → Any
+  4. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#clone\(\):Object "Permalink") def clone(): AnyRef
+
+Attributes
+    protected[lang]
+
+Definition Classes
+    AnyRef
+
+Annotations
+     @throws(classOf[java.lang.CloneNotSupportedException]) @IntrinsicCandidate() @native()
+  5. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#eq\(x$1:AnyRef\):Boolean "Permalink") final  def eq(arg0: AnyRef): Boolean
+
+Definition Classes
+    AnyRef
+  6. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#equals\(x$1:Object\):Boolean "Permalink") def equals(arg0: AnyRef): Boolean
+
+Definition Classes
+    AnyRef → Any
+  7. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#getClass\(\):Class\[_\] "Permalink") final  def getClass(): [Class](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Class.html#java.lang.Class "java.lang.Class")[_ <: AnyRef]
+
+Definition Classes
+    AnyRef → Any
+
+Annotations
+     @IntrinsicCandidate() @native()
+  8. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#hashCode\(\):Int "Permalink") def hashCode(): Int
+
+Definition Classes
+    AnyRef → Any
+
+Annotations
+     @IntrinsicCandidate() @native()
+  9. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#ne\(x$1:AnyRef\):Boolean "Permalink") final  def ne(arg0: AnyRef): Boolean
+
+Definition Classes
+    AnyRef
+  10. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#notify\(\):Unit "Permalink") final  def notify(): Unit
+
+Definition Classes
+    AnyRef
+
+Annotations
+     @IntrinsicCandidate() @native()
+  11. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#notifyAll\(\):Unit "Permalink") final  def notifyAll(): Unit
+
+Definition Classes
+    AnyRef
+
+Annotations
+     @IntrinsicCandidate() @native()
+  12. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#synchronized\[T0\]\(x$1:=>T0\):T0 "Permalink") final  def synchronized[T0](arg0: => T0): T0
+
+Definition Classes
+    AnyRef
+  13. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#toString\(\):String "Permalink") def toString(): [String](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html#java.lang.String "java.lang.String")
+
+Definition Classes
+    AnyRef → Any
+  14. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#wait\(x$1:Long,x$2:Int\):Unit "Permalink") final  def wait(arg0: Long, arg1: Int): Unit
+
+Definition Classes
+    AnyRef
+
+Annotations
+     @throws(classOf[java.lang.InterruptedException])
+  15. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#wait\(x$1:Long\):Unit "Permalink") final  def wait(arg0: Long): Unit
+
+Definition Classes
+    AnyRef
+
+Annotations
+     @throws(classOf[java.lang.InterruptedException]) @native()
+  16. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#wait\(\):Unit "Permalink") final  def wait(): Unit
+
+Definition Classes
+    AnyRef
+
+Annotations
+     @throws(classOf[java.lang.InterruptedException])
+  17. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#finalize\(\):Unit "Permalink") def finalize(): Unit
+
+Attributes
+    protected[lang]
+
+Definition Classes
+    AnyRef
+
+Annotations
+     @throws(classOf[java.lang.Throwable]) @Deprecated
+
+Deprecated
+
+_(Since version 9)_
+
+### Inherited from Any
+### Value Members
+  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#asInstanceOf\[T0\]:T0 "Permalink") final  def asInstanceOf[T0]: T0
+
+Definition Classes
+    Any
+  2. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#isInstanceOf\[T0\]:Boolean "Permalink") final  def isInstanceOf[T0]: Boolean
+
+Definition Classes
+    Any
+
+### Ungrouped
+  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#LogStringContextextendsAnyRef "Permalink") implicit  class LogStringContext extends AnyRef
+
+Definition Classes
+    Logging
+
+  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#!=\(x$1:Any\):Boolean "Permalink") final  def !=(arg0: Any): Boolean
+
+Definition Classes
+    AnyRef → Any
+  2. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html###:Int "Permalink") final  def ##: Int
+
+Definition Classes
+    AnyRef → Any
+  3. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#==\(x$1:Any\):Boolean "Permalink") final  def ==(arg0: Any): Boolean
+
+Definition Classes
+    AnyRef → Any
+  4. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#MDC\(key:org.apache.spark.internal.LogKey,value:Any\):org.apache.spark.internal.MDC "Permalink") def MDC(key: LogKey, value: Any): MDC
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  5. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#addTaskCompletionListener\(listener:org.apache.spark.util.TaskCompletionListener\):BarrierTaskContext.this.type "Permalink") def addTaskCompletionListener(listener: [TaskCompletionListener](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/util/TaskCompletionListener.html "org.apache.spark.util.TaskCompletionListener")): [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext").this.type
+Adds a (Java friendly) listener to be executed on task completion.
+Adds a (Java friendly) listener to be executed on task completion. This will be called in all situations - success, failure, or cancellation. Adding a listener to an already completed task will result in that listener being called immediately.
+Two listeners registered in the same thread will be invoked in reverse order of registration if the task completes after both are registered. There are no ordering guarantees for listeners registered in different threads, or for listeners registered after the task completes. Listeners are guaranteed to execute sequentially.
+An example use is for HadoopRDD to register a callback to close the input stream.
+Exceptions thrown by the listener will result in failure of the task.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  6. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#addTaskCompletionListener\[U\]\(f:org.apache.spark.TaskContext=>U\):org.apache.spark.TaskContext "Permalink") def addTaskCompletionListener[U](f: ([TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")) => U): [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+Adds a listener in the form of a Scala closure to be executed on task completion.
+Adds a listener in the form of a Scala closure to be executed on task completion. This will be called in all situations - success, failure, or cancellation. Adding a listener to an already completed task will result in that listener being called immediately.
+An example use is for HadoopRDD to register a callback to close the input stream.
+Exceptions thrown by the listener will result in failure of the task.
+
+Definition Classes
+    [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  7. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#addTaskFailureListener\(listener:org.apache.spark.util.TaskFailureListener\):BarrierTaskContext.this.type "Permalink") def addTaskFailureListener(listener: [TaskFailureListener](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/util/TaskFailureListener.html "org.apache.spark.util.TaskFailureListener")): [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext").this.type
+Adds a listener to be executed on task failure (which includes completion listener failure, if the task body did not already fail).
+Adds a listener to be executed on task failure (which includes completion listener failure, if the task body did not already fail). Adding a listener to an already failed task will result in that listener being called immediately.
+Note: Prior to Spark 3.4.0, failure listeners were only invoked if the main task body failed.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  8. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#addTaskFailureListener\(f:\(org.apache.spark.TaskContext,Throwable\)=>Unit\):org.apache.spark.TaskContext "Permalink") def addTaskFailureListener(f: ([TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext"), Throwable) => Unit): [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+Adds a listener to be executed on task failure (which includes completion listener failure, if the task body did not already fail).
+Adds a listener to be executed on task failure (which includes completion listener failure, if the task body did not already fail). Adding a listener to an already failed task will result in that listener being called immediately.
+Note: Prior to Spark 3.4.0, failure listeners were only invoked if the main task body failed.
+
+Definition Classes
+    [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  9. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#allGather\(message:String\):Array\[String\] "Permalink") def allGather(message: String): Array[String]
+Blocks until all tasks in the same stage have reached this routine.
+Blocks until all tasks in the same stage have reached this routine. Each task passes in a message and returns with a list of all the messages passed in by each of those tasks.
+CAUTION! The allGather method requires the same precautions as the barrier method
+The message is type String rather than Array[Byte] because it is more convenient for the user at the cost of worse performance.
+
+Annotations
+     @Experimental() @Since("3.0.0")
+  10. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#asInstanceOf\[T0\]:T0 "Permalink") final  def asInstanceOf[T0]: T0
+
+Definition Classes
+    Any
+  11. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#attemptNumber\(\):Int "Permalink") def attemptNumber(): Int
+How many times this task has been attempted.
+How many times this task has been attempted. The first task attempt will be assigned attemptNumber = 0, and subsequent attempts will have increasing attempt numbers.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  12. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#barrier\(\):Unit "Permalink") def barrier(): Unit
+Sets a global barrier and waits until all tasks in this stage hit this barrier.
+Sets a global barrier and waits until all tasks in this stage hit this barrier. Similar to MPI_Barrier function in MPI, the barrier() function call blocks until all tasks in the same stage have reached this routine.
+CAUTION! In a barrier stage, each task must have the same number of barrier() calls, in all possible code branches. Otherwise, you may get the job hanging or a SparkException after timeout. Some examples of **misuses** are listed below: 1. Only call barrier() function on a subset of all the tasks in the same barrier stage, it shall lead to timeout of the function call.
+
+```
+rdd.barrier().mapPartitions { iter =>
+    val context = BarrierTaskContext.get()
+    if (context.partitionId() == 0) {
+        // Do nothing.
+    } else {
+        context.barrier()
+    }
+    iter
+}
+```
+
+2. Include barrier() function in a try-catch code block, this may lead to timeout of the second function call.
+
+```
+rdd.barrier().mapPartitions { iter =>
+    val context = BarrierTaskContext.get()
+    try {
+        // Do something that might throw an Exception.
+        doSomething()
+        context.barrier()
+    } catch {
+        case e: Exception => logWarning("...", e)
+    }
+    context.barrier()
+    iter
+}
+```
+
+Annotations
+     @Experimental() @Since("2.4.0")
+  13. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#clone\(\):Object "Permalink") def clone(): AnyRef
+
+Attributes
+    protected[lang]
+
+Definition Classes
+    AnyRef
+
+Annotations
+     @throws(classOf[java.lang.CloneNotSupportedException]) @IntrinsicCandidate() @native()
+  14. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#cpus\(\):Int "Permalink") def cpus(): Int
+CPUs allocated to the task.
+CPUs allocated to the task.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  15. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#eq\(x$1:AnyRef\):Boolean "Permalink") final  def eq(arg0: AnyRef): Boolean
+
+Definition Classes
+    AnyRef
+  16. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#equals\(x$1:Object\):Boolean "Permalink") def equals(arg0: AnyRef): Boolean
+
+Definition Classes
+    AnyRef → Any
+  17. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#getClass\(\):Class\[_\] "Permalink") final  def getClass(): [Class](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Class.html#java.lang.Class "java.lang.Class")[_ <: AnyRef]
+
+Definition Classes
+    AnyRef → Any
+
+Annotations
+     @IntrinsicCandidate() @native()
+  18. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#getLocalProperty\(key:String\):String "Permalink") def getLocalProperty(key: String): String
+Get a local property set upstream in the driver, or null if it is missing.
+Get a local property set upstream in the driver, or null if it is missing. See also `org.apache.spark.SparkContext.setLocalProperty`.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  19. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#getMetricsSources\(sourceName:String\):Seq\[org.apache.spark.metrics.source.Source\] "Permalink") def getMetricsSources(sourceName: String): Seq[Source]
+::DeveloperApi:: Returns all metrics sources with the given name which are associated with the instance which runs the task.
+::DeveloperApi:: Returns all metrics sources with the given name which are associated with the instance which runs the task. For more information see `org.apache.spark.metrics.MetricsSystem`.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  20. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#getTaskInfos\(\):Array\[org.apache.spark.BarrierTaskInfo\] "Permalink") def getTaskInfos(): Array[[BarrierTaskInfo](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskInfo.html "org.apache.spark.BarrierTaskInfo")]
+Returns [BarrierTaskInfo](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskInfo.html "org.apache.spark.BarrierTaskInfo") for all tasks in this barrier stage, ordered by partition ID.
+Returns [BarrierTaskInfo](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskInfo.html "org.apache.spark.BarrierTaskInfo") for all tasks in this barrier stage, ordered by partition ID.
+
+Annotations
+     @Experimental() @Since("2.4.0")
+  21. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#hashCode\(\):Int "Permalink") def hashCode(): Int
+
+Definition Classes
+    AnyRef → Any
+
+Annotations
+     @IntrinsicCandidate() @native()
+  22. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#initializeLogIfNecessary\(isInterpreter:Boolean,silent:Boolean\):Boolean "Permalink") def initializeLogIfNecessary(isInterpreter: Boolean, silent: Boolean): Boolean
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  23. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#initializeLogIfNecessary\(isInterpreter:Boolean\):Unit "Permalink") def initializeLogIfNecessary(isInterpreter: Boolean): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  24. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#isCompleted\(\):Boolean "Permalink") def isCompleted(): Boolean
+Returns true if the task has completed.
+Returns true if the task has completed.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  25. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#isFailed\(\):Boolean "Permalink") def isFailed(): Boolean
+Returns true if the task has failed.
+Returns true if the task has failed.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  26. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#isInstanceOf\[T0\]:Boolean "Permalink") final  def isInstanceOf[T0]: Boolean
+
+Definition Classes
+    Any
+  27. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#isInterrupted\(\):Boolean "Permalink") def isInterrupted(): Boolean
+Returns true if the task has been killed.
+Returns true if the task has been killed.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  28. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#isTraceEnabled\(\):Boolean "Permalink") def isTraceEnabled(): Boolean
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  29. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#log:org.slf4j.Logger "Permalink") def log: Logger
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  30. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logBasedOnLevel\(level:org.slf4j.event.Level\)\(f:=>org.apache.spark.internal.MessageWithContext\):Unit "Permalink") def logBasedOnLevel(level: Level)(f: => MessageWithContext): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  31. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logDebug\(msg:=>String,throwable:Throwable\):Unit "Permalink") def logDebug(msg: => String, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  32. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logDebug\(entry:org.apache.spark.internal.LogEntry,throwable:Throwable\):Unit "Permalink") def logDebug(entry: LogEntry, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  33. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logDebug\(entry:org.apache.spark.internal.LogEntry\):Unit "Permalink") def logDebug(entry: LogEntry): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  34. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logDebug\(msg:=>String\):Unit "Permalink") def logDebug(msg: => String): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  35. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logError\(msg:=>String,throwable:Throwable\):Unit "Permalink") def logError(msg: => String, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  36. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logError\(entry:org.apache.spark.internal.LogEntry,throwable:Throwable\):Unit "Permalink") def logError(entry: LogEntry, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  37. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logError\(entry:org.apache.spark.internal.LogEntry\):Unit "Permalink") def logError(entry: LogEntry): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  38. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logError\(msg:=>String\):Unit "Permalink") def logError(msg: => String): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  39. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logInfo\(msg:=>String,throwable:Throwable\):Unit "Permalink") def logInfo(msg: => String, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  40. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logInfo\(entry:org.apache.spark.internal.LogEntry,throwable:Throwable\):Unit "Permalink") def logInfo(entry: LogEntry, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  41. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logInfo\(entry:org.apache.spark.internal.LogEntry\):Unit "Permalink") def logInfo(entry: LogEntry): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  42. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logInfo\(msg:=>String\):Unit "Permalink") def logInfo(msg: => String): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  43. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logName:String "Permalink") def logName: [String](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html#java.lang.String "java.lang.String")
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  44. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logTrace\(msg:=>String,throwable:Throwable\):Unit "Permalink") def logTrace(msg: => String, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  45. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logTrace\(entry:org.apache.spark.internal.LogEntry,throwable:Throwable\):Unit "Permalink") def logTrace(entry: LogEntry, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  46. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logTrace\(entry:org.apache.spark.internal.LogEntry\):Unit "Permalink") def logTrace(entry: LogEntry): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  47. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logTrace\(msg:=>String\):Unit "Permalink") def logTrace(msg: => String): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  48. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logWarning\(msg:=>String,throwable:Throwable\):Unit "Permalink") def logWarning(msg: => String, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  49. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logWarning\(entry:org.apache.spark.internal.LogEntry,throwable:Throwable\):Unit "Permalink") def logWarning(entry: LogEntry, throwable: Throwable): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  50. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logWarning\(entry:org.apache.spark.internal.LogEntry\):Unit "Permalink") def logWarning(entry: LogEntry): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  51. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#logWarning\(msg:=>String\):Unit "Permalink") def logWarning(msg: => String): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  52. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#ne\(x$1:AnyRef\):Boolean "Permalink") final  def ne(arg0: AnyRef): Boolean
+
+Definition Classes
+    AnyRef
+  53. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#notify\(\):Unit "Permalink") final  def notify(): Unit
+
+Definition Classes
+    AnyRef
+
+Annotations
+     @IntrinsicCandidate() @native()
+  54. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#notifyAll\(\):Unit "Permalink") final  def notifyAll(): Unit
+
+Definition Classes
+    AnyRef
+
+Annotations
+     @IntrinsicCandidate() @native()
+  55. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#numPartitions\(\):Int "Permalink") def numPartitions(): Int
+Total number of partitions in the stage that this task belongs to.
+Total number of partitions in the stage that this task belongs to.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  56. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#partitionId\(\):Int "Permalink") def partitionId(): Int
+The ID of the RDD partition that is computed by this task.
+The ID of the RDD partition that is computed by this task.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  57. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#resources\(\):Map\[String,org.apache.spark.resource.ResourceInformation\] "Permalink") def resources(): Map[String, [ResourceInformation](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/resource/ResourceInformation.html "org.apache.spark.resource.ResourceInformation")]
+Resources allocated to the task.
+Resources allocated to the task. The key is the resource name and the value is information about the resource. Please refer to [org.apache.spark.resource.ResourceInformation](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/resource/ResourceInformation.html "org.apache.spark.resource.ResourceInformation") for specifics.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  58. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#resourcesJMap\(\):java.util.Map\[String,org.apache.spark.resource.ResourceInformation\] "Permalink") def resourcesJMap(): [Map](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html#java.util.Map "java.util.Map")[String, [ResourceInformation](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/resource/ResourceInformation.html "org.apache.spark.resource.ResourceInformation")]
+(java-specific) Resources allocated to the task.
+(java-specific) Resources allocated to the task. The key is the resource name and the value is information about the resource. Please refer to [org.apache.spark.resource.ResourceInformation](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/resource/ResourceInformation.html "org.apache.spark.resource.ResourceInformation") for specifics.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  59. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#stageAttemptNumber\(\):Int "Permalink") def stageAttemptNumber(): Int
+How many times the stage that this task belongs to has been attempted.
+How many times the stage that this task belongs to has been attempted. The first stage attempt will be assigned stageAttemptNumber = 0, and subsequent attempts will have increasing attempt numbers.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  60. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#stageId\(\):Int "Permalink") def stageId(): Int
+The ID of the stage that this task belong to.
+The ID of the stage that this task belong to.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  61. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#synchronized\[T0\]\(x$1:=>T0\):T0 "Permalink") final  def synchronized[T0](arg0: => T0): T0
+
+Definition Classes
+    AnyRef
+  62. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#taskAttemptId\(\):Long "Permalink") def taskAttemptId(): Long
+An ID that is unique to this task attempt (within the same SparkContext, no two task attempts will share the same attempt ID).
+An ID that is unique to this task attempt (within the same SparkContext, no two task attempts will share the same attempt ID). This is roughly equivalent to Hadoop's TaskAttemptID.
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  63. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#taskMetrics\(\):org.apache.spark.executor.TaskMetrics "Permalink") def taskMetrics(): TaskMetrics
+
+Definition Classes
+     [BarrierTaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html "org.apache.spark.BarrierTaskContext") → [TaskContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/TaskContext.html "org.apache.spark.TaskContext")
+  64. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#toString\(\):String "Permalink") def toString(): [String](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html#java.lang.String "java.lang.String")
+
+Definition Classes
+    AnyRef → Any
+  65. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#wait\(x$1:Long,x$2:Int\):Unit "Permalink") final  def wait(arg0: Long, arg1: Int): Unit
+
+Definition Classes
+    AnyRef
+
+Annotations
+     @throws(classOf[java.lang.InterruptedException])
+  66. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#wait\(x$1:Long\):Unit "Permalink") final  def wait(arg0: Long): Unit
+
+Definition Classes
+    AnyRef
+
+Annotations
+     @throws(classOf[java.lang.InterruptedException]) @native()
+  67. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#wait\(\):Unit "Permalink") final  def wait(): Unit
+
+Definition Classes
+    AnyRef
+
+Annotations
+     @throws(classOf[java.lang.InterruptedException])
+  68. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#withLogContext\(context:java.util.Map\[String,String\]\)\(body:=>Unit\):Unit "Permalink") def withLogContext(context: [Map](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html#java.util.Map "java.util.Map")[String, String])(body: => Unit): Unit
+
+Attributes
+    protected
+
+Definition Classes
+    Logging
+  69. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#finalize\(\):Unit "Permalink") def finalize(): Unit
+
+Attributes
+    protected[lang]
+
+Definition Classes
+    AnyRef
+
+Annotations
+     @throws(classOf[java.lang.Throwable]) @Deprecated
+
+Deprecated
+
+_(Since version 9)_

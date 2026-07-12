@@ -1,0 +1,9 @@
+{
+    "accepted": 585,
+    "rejected": 5,
+    "reasons": {
+        "tiny": 3,
+        "Huge API index": 1,
+        "Archive": 1
+    }
+}

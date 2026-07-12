@@ -1,0 +1,10 @@
+```
+-----BEGIN PGP SIGNATURE-----
+
+iIcEABYIAC8WIQRWTKFJUcKSZoifnFuQ4rqG96mzBwUCagglGBEccHRvdGhAYXBh
+Y2hlLm9yZwAKCRCQ4rqG96mzB67sAQCb6Lpdgc7kplBiTzfcvoMmd0CuRCCbh4TL
+k/820kjdwgEA2LeWMbndjyfXf7D6kOuL+HmHBLPKdvoMyifTh8N6QQ8=
+=p+Gu
+-----END PGP SIGNATURE-----
+
+```
