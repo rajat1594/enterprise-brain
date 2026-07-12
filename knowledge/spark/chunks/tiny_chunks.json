@@ -1,0 +1,662 @@
+[
+  {
+    "filename": "hadoop.apache.org_docs_current_hadoop-yarn_hadoop-yarn-site_FairScheduler.html.md",
+    "heading": "Properties that can be placed in yarn-site.xml",
+    "word_count": 28,
+    "text": "## Properties that can be placed in yarn-site.xml\n\n|  \n|  `yarn.scheduler.increment-allocation-vcores`  |  The allocation increment for CPU vcores. No longer preferred. Use `yarn.resource-types.vcores.increment-allocation` instead. Defaults to 1. |"
+  },
+  {
+    "filename": "hadoop.apache.org_docs_stable_hadoop-project-dist_hadoop-hdfs_HDFSCommands.html.md",
+    "heading": "`dfsrouter`",
+    "word_count": 14,
+    "text": "###  `dfsrouter`\nUsage: `hdfs dfsrouter`\nRuns the DFS router. See [Router](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs-rbf/HDFSRouterFederation.html#Router) for more info."
+  },
+  {
+    "filename": "issues.apache.org_jira_browse_SPARK-2546.md",
+    "heading": "Activity",
+    "word_count": 23,
+    "text": "## Activity\n\nThis setting is off by default because this cloning is actually fairly expensive because new Configuration objects are costly to create."
+  },
+  {
+    "filename": "issues.apache.org_jira_browse_SPARK.md",
+    "heading": "[Spark](https://issues.apache.org/jira/projects/SPARK/summary \"Spark\")",
+    "word_count": 11,
+    "text": "# \n[Spark](https://issues.apache.org/jira/projects/SPARK/summary \"Spark\")\n  * [Issues](https://issues.apache.org/jira/projects/SPARK/issues)\n  * [Reports](https://issues.apache.org/jira/projects/SPARK?selectedItem=com.atlassian.jira.jira-projects-plugin:report-page)\n  * [Components](https://issues.apache.org/jira/projects/SPARK?selectedItem=com.atlassian.jira.jira-projects-plugin:components-page)\n  * [Roadmap](https://issues.apache.org/jira/projects/SPARK?selectedItem=biz.everit.jira.epic-roadmap:erfj-sidebar-roadmap)"
+  },
+  {
+    "filename": "issues.apache.org_jira_browse_SPARK.md",
+    "heading": "Open issuesSwitch filter",
+    "word_count": 28,
+    "text": "## Open issuesSwitch filter\n\nPowered by a free Atlassian [Jira](http://www.atlassian.com/software/jira) open source license for Apache Software Foundation. Try Jira - [bug tracking software](http://www.atlassian.com/software/jira) for _your_ team. \n[Atlassian](http://www.atlassian.com/)\n[](javascript:;)[](javascript:;)"
+  },
+  {
+    "filename": "issues.apache.org_jira_projects_SPARK_issues.md",
+    "heading": "[Spark](https://issues.apache.org/jira/projects/SPARK/summary \"Spark\")",
+    "word_count": 11,
+    "text": "# \n[Spark](https://issues.apache.org/jira/projects/SPARK/summary \"Spark\")\n  * [Issues](https://issues.apache.org/jira/projects/SPARK/issues)\n  * [Reports](https://issues.apache.org/jira/projects/SPARK?selectedItem=com.atlassian.jira.jira-projects-plugin:report-page)\n  * [Components](https://issues.apache.org/jira/projects/SPARK?selectedItem=com.atlassian.jira.jira-projects-plugin:components-page)\n  * [Roadmap](https://issues.apache.org/jira/projects/SPARK?selectedItem=biz.everit.jira.epic-roadmap:erfj-sidebar-roadmap)"
+  },
+  {
+    "filename": "issues.apache.org_jira_projects_SPARK_issues.md",
+    "heading": "Open issuesSwitch filter",
+    "word_count": 28,
+    "text": "## Open issuesSwitch filter\n\nPowered by a free Atlassian [Jira](http://www.atlassian.com/software/jira) open source license for Apache Software Foundation. Try Jira - [bug tracking software](http://www.atlassian.com/software/jira) for _your_ team. \n[Atlassian](http://www.atlassian.com/)\n[](javascript:;)[](javascript:;)"
+  },
+  {
+    "filename": "logging.apache.org_log4j_2.x_manual_json-template-layout.html.md",
+    "heading": "[](https://logging.apache.org/log4j/2.x/manual/json-template-layout.html#event-template-resolver-endOfBatch)`endOfBatch`",
+    "word_count": 6,
+    "text": "#####  [](https://logging.apache.org/log4j/2.x/manual/json-template-layout.html#event-template-resolver-endOfBatch)`endOfBatch`\nResolves `LogEvent#isEndOfBatch()` boolean flag"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_R_reference_index.html.md",
+    "heading": "Function reference",
+    "word_count": 3,
+    "text": "# Function reference"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_deprecated-list.html.md",
+    "heading": "Deprecated API",
+    "word_count": 3,
+    "text": "# Deprecated API"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_parquet_filter2_predicate_package-summary.html.md",
+    "heading": "Package org.apache.parquet.filter2.predicate",
+    "word_count": 31,
+    "text": "# Package org.apache.parquet.filter2.predicate\n* * *\npackage org.apache.parquet.filter2.predicate\n  * Classes\nClass\nDescription\n[SparkFilterApi](https://spark.apache.org/docs/latest/api/java/org/apache/parquet/filter2/predicate/SparkFilterApi.html \"class in org.apache.parquet.filter2.predicate\")\nTODO (PARQUET-1809): This is a temporary workaround; it is intended to be moved to Parquet."
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_api_resource_package-summary.html.md",
+    "heading": "Package org.apache.spark.api.resource",
+    "word_count": 36,
+    "text": "# Package org.apache.spark.api.resource\n* * *\npackage org.apache.spark.api.resource\n  * Interfaces\nClass\nDescription\n[ResourceDiscoveryPlugin](https://spark.apache.org/docs/latest/api/java/org/apache/spark/api/resource/ResourceDiscoveryPlugin.html \"interface in org.apache.spark.api.resource\")\nDeveloper API A plugin that can be dynamically loaded into a Spark application to control how custom resources are discovered."
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_mapred_package-summary.html.md",
+    "heading": "Package org.apache.spark.mapred",
+    "word_count": 27,
+    "text": "# Package org.apache.spark.mapred\n* * *\npackage org.apache.spark.mapred\n  * Related Packages\nPackage\nDescription\n[org.apache.spark](https://spark.apache.org/docs/latest/api/java/org/apache/spark/package-summary.html)\nCore Spark classes in Scala.\n  * Classes\nClass\nDescription\n[SparkHadoopMapRedUtil](https://spark.apache.org/docs/latest/api/java/org/apache/spark/mapred/SparkHadoopMapRedUtil.html \"class in org.apache.spark.mapred\")"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_metrics_sink_package-summary.html.md",
+    "heading": "Package org.apache.spark.metrics.sink",
+    "word_count": 30,
+    "text": "# Package org.apache.spark.metrics.sink\n* * *\npackage org.apache.spark.metrics.sink\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.metrics](https://spark.apache.org/docs/latest/api/java/org/apache/spark/metrics/package-summary.html)\n[org.apache.spark.metrics.source](https://spark.apache.org/docs/latest/api/java/org/apache/spark/metrics/source/package-summary.html)\n  * All Classes and InterfacesInterfacesClasses\nClass\nDescription\n[Sink](https://spark.apache.org/docs/latest/api/java/org/apache/spark/metrics/sink/Sink.html \"interface in org.apache.spark.metrics.sink\")\n[StatsdMetricType](https://spark.apache.org/docs/latest/api/java/org/apache/spark/metrics/sink/StatsdMetricType.html \"class in org.apache.spark.metrics.sink\")"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_ml_impl_package-summary.html.md",
+    "heading": "Package org.apache.spark.ml.impl",
+    "word_count": 37,
+    "text": "# Package org.apache.spark.ml.impl\n* * *\npackage org.apache.spark.ml.impl\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.ml](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ml/package-summary.html)\nDataFrame-based machine learning APIs to let users quickly assemble and configure practical machine learning pipelines.\n  * Classes\nClass\nDescription\n[Utils](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ml/impl/Utils.html \"class in org.apache.spark.ml.impl\")"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_ml_optim_aggregator_package-summary.html.md",
+    "heading": "Package org.apache.spark.ml.optim.aggregator",
+    "word_count": 38,
+    "text": "# Package org.apache.spark.ml.optim.aggregator\n* * *\npackage org.apache.spark.ml.optim.aggregator\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.ml.optim](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ml/optim/package-summary.html)\n[org.apache.spark.ml.optim.loss](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ml/optim/loss/package-summary.html)\n  * Interfaces\nClass\nDescription\n[DifferentiableLossAggregator](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ml/optim/aggregator/DifferentiableLossAggregator.html \"interface in org.apache.spark.ml.optim.aggregator\")<Datum,Agg extends [DifferentiableLossAggregator](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ml/optim/aggregator/DifferentiableLossAggregator.html \"interface in org.apache.spark.ml.optim.aggregator\")<Datum,Agg>>\nA parent trait for aggregators used in fitting MLlib models."
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_ml_optim_loss_package-summary.html.md",
+    "heading": "Package org.apache.spark.ml.optim.loss",
+    "word_count": 37,
+    "text": "# Package org.apache.spark.ml.optim.loss\n* * *\npackage org.apache.spark.ml.optim.loss\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.ml.optim](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ml/optim/package-summary.html)\n[org.apache.spark.ml.optim.aggregator](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ml/optim/aggregator/package-summary.html)\n  * Interfaces\nClass\nDescription\n[DifferentiableRegularization](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ml/optim/loss/DifferentiableRegularization.html \"interface in org.apache.spark.ml.optim.loss\")<T>\nA Breeze diff function which represents a cost function for differentiable regularization of parameters."
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_ml_optim_package-summary.html.md",
+    "heading": "Package org.apache.spark.ml.optim",
+    "word_count": 48,
+    "text": "# Package org.apache.spark.ml.optim\n* * *\npackage org.apache.spark.ml.optim\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.ml](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ml/package-summary.html)\nDataFrame-based machine learning APIs to let users quickly assemble and configure practical machine learning pipelines.\n[org.apache.spark.ml.optim.aggregator](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ml/optim/aggregator/package-summary.html)\n[org.apache.spark.ml.optim.loss](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ml/optim/loss/package-summary.html)\n  * Interfaces\nClass\nDescription\n[NormalEquationSolver](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ml/optim/NormalEquationSolver.html \"interface in org.apache.spark.ml.optim\")\nInterface for classes that solve the normal equations locally."
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_ml_source_image_package-summary.html.md",
+    "heading": "Package org.apache.spark.ml.source.image",
+    "word_count": 30,
+    "text": "# Package org.apache.spark.ml.source.image\n* * *\npackage org.apache.spark.ml.source.image\n  * Classes\nClass\nDescription\n[ImageDataSource](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ml/source/image/ImageDataSource.html \"class in org.apache.spark.ml.source.image\")\n`image` package implements Spark SQL data source API for loading image data as `DataFrame`."
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_ml_source_libsvm_package-summary.html.md",
+    "heading": "Package org.apache.spark.ml.source.libsvm",
+    "word_count": 30,
+    "text": "# Package org.apache.spark.ml.source.libsvm\n* * *\npackage org.apache.spark.ml.source.libsvm\n  * Classes\nClass\nDescription\n[LibSVMDataSource](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ml/source/libsvm/LibSVMDataSource.html \"class in org.apache.spark.ml.source.libsvm\")\n`libsvm` package implements Spark SQL data source API for loading LIBSVM data as `DataFrame`."
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_ml_stat_distribution_package-summary.html.md",
+    "heading": "Package org.apache.spark.ml.stat.distribution",
+    "word_count": 33,
+    "text": "# Package org.apache.spark.ml.stat.distribution\n* * *\npackage org.apache.spark.ml.stat.distribution\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.ml.stat](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ml/stat/package-summary.html)\n  * Classes\nClass\nDescription\n[MultivariateGaussian](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ml/stat/distribution/MultivariateGaussian.html \"class in org.apache.spark.ml.stat.distribution\")\nThis class provides basic functionality for a Multivariate Gaussian (Normal) Distribution."
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_ml_tree_impl_package-summary.html.md",
+    "heading": "Package org.apache.spark.ml.tree.impl",
+    "word_count": 27,
+    "text": "# Package org.apache.spark.ml.tree.impl\n* * *\npackage org.apache.spark.ml.tree.impl\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.ml.tree](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ml/tree/package-summary.html)\n  * Classes\nClass\nDescription\n[GradientBoostedTrees](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ml/tree/impl/GradientBoostedTrees.html \"class in org.apache.spark.ml.tree.impl\")\n[RandomForest](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ml/tree/impl/RandomForest.html \"class in org.apache.spark.ml.tree.impl\")\nALGORITHM"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_mllib_classification_impl_package-summary.html.md",
+    "heading": "Package org.apache.spark.mllib.classification.impl",
+    "word_count": 34,
+    "text": "# Package org.apache.spark.mllib.classification.impl\n* * *\npackage org.apache.spark.mllib.classification.impl\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.mllib.classification](https://spark.apache.org/docs/latest/api/java/org/apache/spark/mllib/classification/package-summary.html)\n  * Classes\nClass\nDescription\n[GLMClassificationModel](https://spark.apache.org/docs/latest/api/java/org/apache/spark/mllib/classification/impl/GLMClassificationModel.html \"class in org.apache.spark.mllib.classification.impl\")\nHelper class for import/export of GLM classification models.\n[GLMClassificationModel.SaveLoadV1_0$](https://spark.apache.org/docs/latest/api/java/org/apache/spark/mllib/classification/impl/GLMClassificationModel.SaveLoadV1_0$.html \"class in org.apache.spark.mllib.classification.impl\")"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_mllib_pmml_export_package-summary.html.md",
+    "heading": "Package org.apache.spark.mllib.pmml.export",
+    "word_count": 29,
+    "text": "# Package org.apache.spark.mllib.pmml.export\n* * *\npackage org.apache.spark.mllib.pmml.export\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.mllib.pmml](https://spark.apache.org/docs/latest/api/java/org/apache/spark/mllib/pmml/package-summary.html)\n  * All Classes and InterfacesInterfacesClasses\nClass\nDescription\n[PMMLModelExport](https://spark.apache.org/docs/latest/api/java/org/apache/spark/mllib/pmml/export/PMMLModelExport.html \"interface in org.apache.spark.mllib.pmml.export\")\n[PMMLModelExportFactory](https://spark.apache.org/docs/latest/api/java/org/apache/spark/mllib/pmml/export/PMMLModelExportFactory.html \"class in org.apache.spark.mllib.pmml.export\")"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_mllib_rdd_package-summary.html.md",
+    "heading": "Package org.apache.spark.mllib.rdd",
+    "word_count": 44,
+    "text": "# Package org.apache.spark.mllib.rdd\n* * *\npackage org.apache.spark.mllib.rdd\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.mllib](https://spark.apache.org/docs/latest/api/java/org/apache/spark/mllib/package-summary.html)\nRDD-based machine learning APIs (in maintenance mode).\n  * Classes\nClass\nDescription\n[MLPairRDDFunctions](https://spark.apache.org/docs/latest/api/java/org/apache/spark/mllib/rdd/MLPairRDDFunctions.html \"class in org.apache.spark.mllib.rdd\")<K,V>\nMachine learning specific Pair RDD functions.\n[RDDFunctions](https://spark.apache.org/docs/latest/api/java/org/apache/spark/mllib/rdd/RDDFunctions.html \"class in org.apache.spark.mllib.rdd\")<T>\nMachine learning specific RDD functions."
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_mllib_regression_impl_package-summary.html.md",
+    "heading": "Package org.apache.spark.mllib.regression.impl",
+    "word_count": 34,
+    "text": "# Package org.apache.spark.mllib.regression.impl\n* * *\npackage org.apache.spark.mllib.regression.impl\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.mllib.regression](https://spark.apache.org/docs/latest/api/java/org/apache/spark/mllib/regression/package-summary.html)\n  * Classes\nClass\nDescription\n[GLMRegressionModel](https://spark.apache.org/docs/latest/api/java/org/apache/spark/mllib/regression/impl/GLMRegressionModel.html \"class in org.apache.spark.mllib.regression.impl\")\nHelper methods for import/export of GLM regression models.\n[GLMRegressionModel.SaveLoadV1_0$](https://spark.apache.org/docs/latest/api/java/org/apache/spark/mllib/regression/impl/GLMRegressionModel.SaveLoadV1_0$.html \"class in org.apache.spark.mllib.regression.impl\")"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_mllib_stat_distribution_package-summary.html.md",
+    "heading": "Package org.apache.spark.mllib.stat.distribution",
+    "word_count": 35,
+    "text": "# Package org.apache.spark.mllib.stat.distribution\n* * *\npackage org.apache.spark.mllib.stat.distribution\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.mllib.stat](https://spark.apache.org/docs/latest/api/java/org/apache/spark/mllib/stat/package-summary.html)\n[org.apache.spark.mllib.stat.correlation](https://spark.apache.org/docs/latest/api/java/org/apache/spark/mllib/stat/correlation/package-summary.html)\n[org.apache.spark.mllib.stat.test](https://spark.apache.org/docs/latest/api/java/org/apache/spark/mllib/stat/test/package-summary.html)\n  * Classes\nClass\nDescription\n[MultivariateGaussian](https://spark.apache.org/docs/latest/api/java/org/apache/spark/mllib/stat/distribution/MultivariateGaussian.html \"class in org.apache.spark.mllib.stat.distribution\")\nThis class provides basic functionality for a Multivariate Gaussian (Normal) Distribution."
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_paths_package-summary.html.md",
+    "heading": "Package org.apache.spark.paths",
+    "word_count": 34,
+    "text": "# Package org.apache.spark.paths\n* * *\npackage org.apache.spark.paths\n  * Related Packages\nPackage\nDescription\n[org.apache.spark](https://spark.apache.org/docs/latest/api/java/org/apache/spark/package-summary.html)\nCore Spark classes in Scala.\n  * Classes\nClass\nDescription\n[SparkPath](https://spark.apache.org/docs/latest/api/java/org/apache/spark/paths/SparkPath.html \"class in org.apache.spark.paths\")\nA canonical representation of a file path."
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_scheduler_local_package-summary.html.md",
+    "heading": "Package org.apache.spark.scheduler.local",
+    "word_count": 38,
+    "text": "# Package org.apache.spark.scheduler.local\n* * *\npackage org.apache.spark.scheduler.local\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.scheduler](https://spark.apache.org/docs/latest/api/java/org/apache/spark/scheduler/package-summary.html)\nSpark's DAG scheduler.\n[org.apache.spark.scheduler.cluster](https://spark.apache.org/docs/latest/api/java/org/apache/spark/scheduler/cluster/package-summary.html)\n  * Classes\nClass\nDescription\n[KillTask](https://spark.apache.org/docs/latest/api/java/org/apache/spark/scheduler/local/KillTask.html \"class in org.apache.spark.scheduler.local\")\n[ReviveOffers](https://spark.apache.org/docs/latest/api/java/org/apache/spark/scheduler/local/ReviveOffers.html \"class in org.apache.spark.scheduler.local\")\n[StatusUpdate](https://spark.apache.org/docs/latest/api/java/org/apache/spark/scheduler/local/StatusUpdate.html \"class in org.apache.spark.scheduler.local\")\n[StopExecutor](https://spark.apache.org/docs/latest/api/java/org/apache/spark/scheduler/local/StopExecutor.html \"class in org.apache.spark.scheduler.local\")"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_sql_api_r_package-summary.html.md",
+    "heading": "Package org.apache.spark.sql.api.r",
+    "word_count": 16,
+    "text": "# Package org.apache.spark.sql.api.r\n* * *\npackage org.apache.spark.sql.api.r\n  * Classes\nClass\nDescription\n[SQLUtils](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/api/r/SQLUtils.html \"class in org.apache.spark.sql.api.r\")"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_sql_connector_catalog_index_package-summary.html.md",
+    "heading": "Package org.apache.spark.sql.connector.catalog.index",
+    "word_count": 42,
+    "text": "# Package org.apache.spark.sql.connector.catalog.index\n* * *\npackage org.apache.spark.sql.connector.catalog.index\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.sql.connector.catalog](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/connector/catalog/package-summary.html)\n[org.apache.spark.sql.connector.catalog.constraints](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/connector/catalog/constraints/package-summary.html)\n[org.apache.spark.sql.connector.catalog.functions](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/connector/catalog/functions/package-summary.html)\n[org.apache.spark.sql.connector.catalog.procedures](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/connector/catalog/procedures/package-summary.html)\n  * All Classes and InterfacesInterfacesClasses\nClass\nDescription\n[SupportsIndex](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/connector/catalog/index/SupportsIndex.html \"interface in org.apache.spark.sql.connector.catalog.index\")\nTable methods for working with index\n[TableIndex](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/connector/catalog/index/TableIndex.html \"class in org.apache.spark.sql.connector.catalog.index\")\nIndex in a table"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_sql_connector_join_package-summary.html.md",
+    "heading": "Package org.apache.spark.sql.connector.join",
+    "word_count": 32,
+    "text": "# Package org.apache.spark.sql.connector.join\n* * *\npackage org.apache.spark.sql.connector.join\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.sql.connector](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/connector/package-summary.html)\n  * Enum Classes\nClass\nDescription\n[JoinType](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/connector/join/JoinType.html \"enum class in org.apache.spark.sql.connector.join\")\nEnum representing the join type in public API."
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_sql_connector_package-summary.html.md",
+    "heading": "Package org.apache.spark.sql.connector",
+    "word_count": 46,
+    "text": "# Package org.apache.spark.sql.connector\n* * *\npackage org.apache.spark.sql.connector\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.sql](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/package-summary.html)\n[org.apache.spark.sql.connector.catalog](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/connector/catalog/package-summary.html)\n[org.apache.spark.sql.connector.distributions](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/connector/distributions/package-summary.html)\n[org.apache.spark.sql.connector.expressions](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/connector/expressions/package-summary.html)\n[org.apache.spark.sql.connector.join](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/connector/join/package-summary.html)\n[org.apache.spark.sql.connector.metric](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/connector/metric/package-summary.html)\n[org.apache.spark.sql.connector.read](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/connector/read/package-summary.html)\n[org.apache.spark.sql.connector.util](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/connector/util/package-summary.html)\n[org.apache.spark.sql.connector.write](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/connector/write/package-summary.html)\n  * Interfaces\nClass\nDescription\n[ExternalCommandRunner](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/connector/ExternalCommandRunner.html \"interface in org.apache.spark.sql.connector\")\nAn interface to execute an arbitrary string command inside an external execution engine rather than Spark."
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_sql_connector_util_package-summary.html.md",
+    "heading": "Package org.apache.spark.sql.connector.util",
+    "word_count": 30,
+    "text": "# Package org.apache.spark.sql.connector.util\n* * *\npackage org.apache.spark.sql.connector.util\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.sql.connector](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/connector/package-summary.html)\n  * Classes\nClass\nDescription\n[V2ExpressionSQLBuilder](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/connector/util/V2ExpressionSQLBuilder.html \"class in org.apache.spark.sql.connector.util\")\nThe builder to generate SQL from V2 expressions."
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_sql_expressions_javalang_package-summary.html.md",
+    "heading": "Package org.apache.spark.sql.expressions.javalang",
+    "word_count": 35,
+    "text": "# Package org.apache.spark.sql.expressions.javalang\n* * *\npackage org.apache.spark.sql.expressions.javalang\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.sql.expressions](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/expressions/package-summary.html)\n[org.apache.spark.sql.expressions.scalalang](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/expressions/scalalang/package-summary.html)\n  * Classes\nClass\nDescription\n[typed](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/expressions/javalang/typed.html \"class in org.apache.spark.sql.expressions.javalang\")\nDeprecated. \nAs of release 3.0.0, please use the untyped builtin aggregate functions."
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_sql_expressions_scalalang_package-summary.html.md",
+    "heading": "Package org.apache.spark.sql.expressions.scalalang",
+    "word_count": 30,
+    "text": "# Package org.apache.spark.sql.expressions.scalalang\n* * *\npackage org.apache.spark.sql.expressions.scalalang\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.sql.expressions](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/expressions/package-summary.html)\n[org.apache.spark.sql.expressions.javalang](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/expressions/javalang/package-summary.html)\n  * Classes\nClass\nDescription\n[typed](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/expressions/scalalang/typed.html \"class in org.apache.spark.sql.expressions.scalalang\")\nDeprecated. \nplease use untyped builtin aggregate functions."
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_sql_protobuf_package-summary.html.md",
+    "heading": "Package org.apache.spark.sql.protobuf",
+    "word_count": 22,
+    "text": "# Package org.apache.spark.sql.protobuf\n* * *\npackage org.apache.spark.sql.protobuf\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.sql](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/package-summary.html)\n  * Classes\nClass\nDescription\n[functions](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/protobuf/functions.html \"class in org.apache.spark.sql.protobuf\")"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_sql_streaming_ui_package-summary.html.md",
+    "heading": "Package org.apache.spark.sql.streaming.ui",
+    "word_count": 22,
+    "text": "# Package org.apache.spark.sql.streaming.ui\n* * *\npackage org.apache.spark.sql.streaming.ui\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.sql.streaming](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/streaming/package-summary.html)\n  * Classes\nClass\nDescription\n[UIUtils](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/streaming/ui/UIUtils.html \"class in org.apache.spark.sql.streaming.ui\")"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_status_api_v1_sql_package-summary.html.md",
+    "heading": "Package org.apache.spark.status.api.v1.sql",
+    "word_count": 31,
+    "text": "# Package org.apache.spark.status.api.v1.sql\n* * *\npackage org.apache.spark.status.api.v1.sql\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.status.api.v1](https://spark.apache.org/docs/latest/api/java/org/apache/spark/status/api/v1/package-summary.html)\n[org.apache.spark.status.api.v1.streaming](https://spark.apache.org/docs/latest/api/java/org/apache/spark/status/api/v1/streaming/package-summary.html)\n  * Classes\nClass\nDescription\n[ExecutionData](https://spark.apache.org/docs/latest/api/java/org/apache/spark/status/api/v1/sql/ExecutionData.html \"class in org.apache.spark.status.api.v1.sql\")\n[Metric](https://spark.apache.org/docs/latest/api/java/org/apache/spark/status/api/v1/sql/Metric.html \"class in org.apache.spark.status.api.v1.sql\")\n[Node](https://spark.apache.org/docs/latest/api/java/org/apache/spark/status/api/v1/sql/Node.html \"class in org.apache.spark.status.api.v1.sql\")"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_status_protobuf_sql_package-summary.html.md",
+    "heading": "Package org.apache.spark.status.protobuf.sql",
+    "word_count": 38,
+    "text": "# Package org.apache.spark.status.protobuf.sql\n* * *\npackage org.apache.spark.status.protobuf.sql\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.status.protobuf](https://spark.apache.org/docs/latest/api/java/org/apache/spark/status/protobuf/package-summary.html)\n  * Classes\nClass\nDescription\n[SinkProgressSerializer](https://spark.apache.org/docs/latest/api/java/org/apache/spark/status/protobuf/sql/SinkProgressSerializer.html \"class in org.apache.spark.status.protobuf.sql\")\n[SourceProgressSerializer](https://spark.apache.org/docs/latest/api/java/org/apache/spark/status/protobuf/sql/SourceProgressSerializer.html \"class in org.apache.spark.status.protobuf.sql\")\n[SQLPlanMetricSerializer](https://spark.apache.org/docs/latest/api/java/org/apache/spark/status/protobuf/sql/SQLPlanMetricSerializer.html \"class in org.apache.spark.status.protobuf.sql\")\n[StateOperatorProgressSerializer](https://spark.apache.org/docs/latest/api/java/org/apache/spark/status/protobuf/sql/StateOperatorProgressSerializer.html \"class in org.apache.spark.status.protobuf.sql\")\n[StreamingQueryProgressSerializer](https://spark.apache.org/docs/latest/api/java/org/apache/spark/status/protobuf/sql/StreamingQueryProgressSerializer.html \"class in org.apache.spark.status.protobuf.sql\")"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_streaming_scheduler_rate_package-summary.html.md",
+    "heading": "Package org.apache.spark.streaming.scheduler.rate",
+    "word_count": 42,
+    "text": "# Package org.apache.spark.streaming.scheduler.rate\n* * *\npackage org.apache.spark.streaming.scheduler.rate\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.streaming.scheduler](https://spark.apache.org/docs/latest/api/java/org/apache/spark/streaming/scheduler/package-summary.html)\n  * Interfaces\nClass\nDescription\n[RateEstimator](https://spark.apache.org/docs/latest/api/java/org/apache/spark/streaming/scheduler/rate/RateEstimator.html \"interface in org.apache.spark.streaming.scheduler.rate\")\nA component that estimates the rate at which an `InputDStream` should ingest records, based on updates at every batch completion."
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_streaming_ui_package-summary.html.md",
+    "heading": "Package org.apache.spark.streaming.ui",
+    "word_count": 31,
+    "text": "# Package org.apache.spark.streaming.ui\n* * *\npackage org.apache.spark.streaming.ui\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.streaming](https://spark.apache.org/docs/latest/api/java/org/apache/spark/streaming/package-summary.html)\n[org.apache.spark.streaming.dstream](https://spark.apache.org/docs/latest/api/java/org/apache/spark/streaming/dstream/package-summary.html)\nVarious implementations of DStreams.\n[org.apache.spark.streaming.kinesis](https://spark.apache.org/docs/latest/api/java/org/apache/spark/streaming/kinesis/package-summary.html)\n[org.apache.spark.streaming.receiver](https://spark.apache.org/docs/latest/api/java/org/apache/spark/streaming/receiver/package-summary.html)\n[org.apache.spark.streaming.scheduler](https://spark.apache.org/docs/latest/api/java/org/apache/spark/streaming/scheduler/package-summary.html)\n[org.apache.spark.streaming.util](https://spark.apache.org/docs/latest/api/java/org/apache/spark/streaming/util/package-summary.html)\n  * Classes\nClass\nDescription\n[UIUtils](https://spark.apache.org/docs/latest/api/java/org/apache/spark/streaming/ui/UIUtils.html \"class in org.apache.spark.streaming.ui\")"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_ui_jobs_package-summary.html.md",
+    "heading": "Package org.apache.spark.ui.jobs",
+    "word_count": 31,
+    "text": "# Package org.apache.spark.ui.jobs\n* * *\npackage org.apache.spark.ui.jobs\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.ui](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ui/package-summary.html)\n[org.apache.spark.ui.storage](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ui/storage/package-summary.html)\n  * Classes\nClass\nDescription\n[ApiHelper](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ui/jobs/ApiHelper.html \"class in org.apache.spark.ui.jobs\")\n[JobDataUtil](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ui/jobs/JobDataUtil.html \"class in org.apache.spark.ui.jobs\")\n[StageDataUtil](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ui/jobs/StageDataUtil.html \"class in org.apache.spark.ui.jobs\")"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_ui_storage_package-summary.html.md",
+    "heading": "Package org.apache.spark.ui.storage",
+    "word_count": 27,
+    "text": "# Package org.apache.spark.ui.storage\n* * *\npackage org.apache.spark.ui.storage\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.ui](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ui/package-summary.html)\n[org.apache.spark.ui.jobs](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ui/jobs/package-summary.html)\n  * Classes\nClass\nDescription\n[ExecutorStreamSummary](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ui/storage/ExecutorStreamSummary.html \"class in org.apache.spark.ui.storage\")\n[ToolTips](https://spark.apache.org/docs/latest/api/java/org/apache/spark/ui/storage/ToolTips.html \"class in org.apache.spark.ui.storage\")"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_unsafe_types_package-summary.html.md",
+    "heading": "Package org.apache.spark.unsafe.types",
+    "word_count": 21,
+    "text": "# Package org.apache.spark.unsafe.types\n* * *\npackage org.apache.spark.unsafe.types\n  * Classes\nClass\nDescription\n[CalendarInterval](https://spark.apache.org/docs/latest/api/java/org/apache/spark/unsafe/types/CalendarInterval.html \"class in org.apache.spark.unsafe.types\")\nThe class representing calendar intervals."
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_java_org_apache_spark_util_logging_package-summary.html.md",
+    "heading": "Package org.apache.spark.util.logging",
+    "word_count": 42,
+    "text": "# Package org.apache.spark.util.logging\n* * *\npackage org.apache.spark.util.logging\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.util](https://spark.apache.org/docs/latest/api/java/org/apache/spark/util/package-summary.html)\nSpark utilities.\n[org.apache.spark.util.random](https://spark.apache.org/docs/latest/api/java/org/apache/spark/util/random/package-summary.html)\nUtilities for random number generation.\n[org.apache.spark.util.sketch](https://spark.apache.org/docs/latest/api/java/org/apache/spark/util/sketch/package-summary.html)\n  * Interfaces\nClass\nDescription\n[RollingPolicy](https://spark.apache.org/docs/latest/api/java/org/apache/spark/util/logging/RollingPolicy.html \"interface in org.apache.spark.util.logging\")\nDefines the policy based on which `RollingFileAppender` will generate rolling files."
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_python_reference_pyspark.streaming.html.md",
+    "heading": "Transformations and Actions[#](https://spark.apache.org/docs/latest/api/python/reference/pyspark.streaming.html#transformations-and-actions \"Permalink to this headline\")",
+    "word_count": 38,
+    "text": "## Transformations and Actions[#](https://spark.apache.org/docs/latest/api/python/reference/pyspark.streaming.html#transformations-and-actions \"Permalink to this headline\")\n\n|  \n| [`DStream.window`](https://spark.apache.org/docs/latest/api/python/reference/api/pyspark.streaming.DStream.window.html#pyspark.streaming.DStream.window \"pyspark.streaming.DStream.window\")(windowDuration[, slideDuration])  | Return a new DStream in which each RDD contains all the elements in seen in a sliding window of time over this DStream. |"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_index.html.md",
+    "heading": "Packages",
+    "word_count": 29,
+    "text": "# Packages\n  * [__](https://spark.apache.org/docs/latest/api/scala/index.html \"Permalink\") package root\n  * [__](https://spark.apache.org/docs/latest/api/scala/org/index.html \"Permalink\") package [org](https://spark.apache.org/docs/latest/api/scala/org/index.html)\n\n\np\n\n# root package [__](https://spark.apache.org/docs/latest/api/scala/index.html \"Permalink\")\n\n####  package root\n\n### Package Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/index.html \"Permalink\") package [org](https://spark.apache.org/docs/latest/api/scala/org/index.html)"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_BarrierTaskContext.html.md",
+    "heading": "Deprecated Value Members",
+    "word_count": 26,
+    "text": "### Deprecated Value Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/BarrierTaskContext.html#finalize\\(\\):Unit \"Permalink\") def finalize(): Unit \n\nAttributes\n    protected[lang]  \n\nDefinition Classes\n    AnyRef \n\nAnnotations\n     @throws(classOf[java.lang.Throwable]) @Deprecated \n\nDeprecated\n    \n_(Since version 9)_\n\n### Inherited from Logging"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_ContextAwareIterator.html.md",
+    "heading": "Inherited from IterableOnceOps[T, Iterator, Iterator[T]]",
+    "word_count": 6,
+    "text": "### Inherited from IterableOnceOps[T, Iterator, Iterator[T]]"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_InterruptibleIterator.html.md",
+    "heading": "Inherited from IterableOnceOps[T, Iterator, Iterator[T]]",
+    "word_count": 6,
+    "text": "### Inherited from IterableOnceOps[T, Iterator, Iterator[T]]"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_SparkConf.html.md",
+    "heading": "Value Members",
+    "word_count": 47,
+    "text": "## Value Members\n\nAnnotations\n     @throws(classOf[java.lang.InterruptedException])\n  88. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkConf.html#wait\\(x$1:Long\\):Unit \"Permalink\") final  def wait(arg0: Long): Unit\n\nDefinition Classes\n    AnyRef\n\nAnnotations\n     @throws(classOf[java.lang.InterruptedException]) @native()\n  89. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkConf.html#wait\\(\\):Unit \"Permalink\") final  def wait(): Unit\n\nDefinition Classes\n    AnyRef\n\nAnnotations\n     @throws(classOf[java.lang.InterruptedException])\n  90. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkConf.html#withLogContext\\(context:java.util.Map\\[String,String\\]\\)\\(body:=>Unit\\):Unit \"Permalink\") def withLogContext(context: [Map](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html#java.util.Map \"java.util.Map\")[String, String])(body: => Unit): Unit\n\nAttributes\n    protected\n\nDefinition Classes\n    Logging"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_SparkConf.html.md",
+    "heading": "Deprecated Value Members",
+    "word_count": 26,
+    "text": "### Deprecated Value Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkConf.html#finalize\\(\\):Unit \"Permalink\") def finalize(): Unit \n\nAttributes\n    protected[lang]  \n\nDefinition Classes\n    AnyRef \n\nAnnotations\n     @throws(classOf[java.lang.Throwable]) @Deprecated \n\nDeprecated\n    \n_(Since version 9)_\n\n### Inherited from Logging"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_SparkContext.html.md",
+    "heading": "Deprecated Value Members",
+    "word_count": 26,
+    "text": "### Deprecated Value Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkContext.html#finalize\\(\\):Unit \"Permalink\") def finalize(): Unit \n\nAttributes\n    protected[lang]  \n\nDefinition Classes\n    AnyRef \n\nAnnotations\n     @throws(classOf[java.lang.Throwable]) @Deprecated \n\nDeprecated\n    \n_(Since version 9)_\n\n### Inherited from Logging"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_SparkEnv.html.md",
+    "heading": "Deprecated Value Members",
+    "word_count": 26,
+    "text": "### Deprecated Value Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/SparkEnv.html#finalize\\(\\):Unit \"Permalink\") def finalize(): Unit \n\nAttributes\n    protected[lang]  \n\nDefinition Classes\n    AnyRef \n\nAnnotations\n     @throws(classOf[java.lang.Throwable]) @Deprecated \n\nDeprecated\n    \n_(Since version 9)_\n\n### Inherited from Logging"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_WritableConverter.html.md",
+    "heading": "WritableConverter[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/WritableConverter$.html \"Permalink\")",
+    "word_count": 46,
+    "text": "# WritableConverter[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/WritableConverter$.html \"Permalink\")\n\n####  object WritableConverter extends [Serializable](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/Serializable.html#java.io.Serializable \"java.io.Serializable\") \n\nSource\n    [SparkContext.scala](https://github.com/apache/spark/tree/v4.1.2/core/src/main/scala/org/apache/spark/SparkContext.scala)\nLinear Supertypes\n[Serializable](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/Serializable.html#java.io.Serializable \"java.io.Serializable\"), AnyRef, Any\n__ __\nOrdering\n  1. Alphabetic\n  2. By Inheritance\n\n\nInherited  \n\n  1. WritableConverter\n  2. Serializable\n  3. AnyRef\n  4. Any\n\n\n  1. Hide All\n  2. Show All\n\n\nVisibility\n  1. Public\n  2. Protected"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_api_index.html.md",
+    "heading": "api[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/api/index.html \"Permalink\")",
+    "word_count": 33,
+    "text": "# api[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/api/index.html \"Permalink\")\n\n####  package api\n\n### Package Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/api/java/index.html \"Permalink\") package [java](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/api/java/index.html \"Spark Java programming APIs.\")\nSpark Java programming APIs.\n  2. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/api/plugin/index.html \"Permalink\") package [plugin](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/api/plugin/index.html)\n  3. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/api/resource/index.html \"Permalink\") package [resource](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/api/resource/index.html)"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_api_java_index.html.md",
+    "heading": "Value Members",
+    "word_count": 32,
+    "text": "### Value Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/api/java/JavaDoubleRDD$.html \"Permalink\") object [JavaDoubleRDD](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/api/java/JavaDoubleRDD$.html) extends [Serializable](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/Serializable.html#java.io.Serializable \"java.io.Serializable\")\n  2. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/api/java/JavaPairRDD$.html \"Permalink\") object [JavaPairRDD](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/api/java/JavaPairRDD$.html) extends [Serializable](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/Serializable.html#java.io.Serializable \"java.io.Serializable\")\n  3. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/api/java/JavaRDD$.html \"Permalink\") object [JavaRDD](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/api/java/JavaRDD$.html) extends [Serializable](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/Serializable.html#java.io.Serializable \"java.io.Serializable\")\n  4. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/api/java/JavaSparkContext$.html \"Permalink\") object [JavaSparkContext](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/api/java/JavaSparkContext$.html)"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_graphx_EdgeRDD.html.md",
+    "heading": "Deprecated Value Members",
+    "word_count": 28,
+    "text": "### Deprecated Value Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/graphx/EdgeRDD.html#finalize\\(\\):Unit \"Permalink\") def finalize(): Unit \n\nAttributes\n    protected[lang]  \n\nDefinition Classes\n    AnyRef \n\nAnnotations\n     @throws(classOf[java.lang.Throwable]) @Deprecated \n\nDeprecated\n    \n_(Since version 9)_\n\n### Inherited from [RDD](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/rdd/RDD.html \"org.apache.spark.rdd.RDD\")[[Edge](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/graphx/Edge.html \"org.apache.spark.graphx.Edge\")[ED]]"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_graphx_EdgeTriplet.html.md",
+    "heading": "Value Members",
+    "word_count": 23,
+    "text": "### Value Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/graphx/EdgeTriplet.html#asInstanceOf\\[T0\\]:T0 \"Permalink\") final  def asInstanceOf[T0]: T0 \n\nDefinition Classes\n    Any\n  2. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/graphx/EdgeTriplet.html#isInstanceOf\\[T0\\]:Boolean \"Permalink\") final  def isInstanceOf[T0]: Boolean \n\nDefinition Classes\n    Any"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_graphx_GraphLoader.html.md",
+    "heading": "Deprecated Value Members",
+    "word_count": 26,
+    "text": "### Deprecated Value Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/graphx/GraphLoader$.html#finalize\\(\\):Unit \"Permalink\") def finalize(): Unit \n\nAttributes\n    protected[lang]  \n\nDefinition Classes\n    AnyRef \n\nAnnotations\n     @throws(classOf[java.lang.Throwable]) @Deprecated \n\nDeprecated\n    \n_(Since version 9)_\n\n### Inherited from Logging"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_graphx_VertexRDD.html.md",
+    "heading": "Deprecated Value Members",
+    "word_count": 28,
+    "text": "### Deprecated Value Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/graphx/VertexRDD.html#finalize\\(\\):Unit \"Permalink\") def finalize(): Unit \n\nAttributes\n    protected[lang]  \n\nDefinition Classes\n    AnyRef \n\nAnnotations\n     @throws(classOf[java.lang.Throwable]) @Deprecated \n\nDeprecated\n    \n_(Since version 9)_\n\n### Inherited from [RDD](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/rdd/RDD.html \"org.apache.spark.rdd.RDD\")[([VertexId](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/graphx/index.html#VertexId=Long), VD)]"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_graphx_lib_ConnectedComponents.html.md",
+    "heading": "ConnectedComponents[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/graphx/lib/ConnectedComponents$.html \"Permalink\")",
+    "word_count": 42,
+    "text": "# ConnectedComponents[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/graphx/lib/ConnectedComponents$.html \"Permalink\")\n\n####  object ConnectedComponents\nConnected components algorithm. \n\nSource\n    [ConnectedComponents.scala](https://github.com/apache/spark/tree/v4.1.2/graphx/src/main/scala/org/apache/spark/graphx/lib/ConnectedComponents.scala)\nLinear Supertypes\nAnyRef, Any\n__ __\nOrdering\n  1. Alphabetic\n  2. By Inheritance\n\n\nInherited  \n\n  1. ConnectedComponents\n  2. AnyRef\n  3. Any\n\n\n  1. Hide All\n  2. Show All\n\n\nVisibility\n  1. Public\n  2. Protected"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_graphx_lib_PageRank.html.md",
+    "heading": "Deprecated Value Members",
+    "word_count": 26,
+    "text": "### Deprecated Value Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/graphx/lib/PageRank$.html#finalize\\(\\):Unit \"Permalink\") def finalize(): Unit \n\nAttributes\n    protected[lang]  \n\nDefinition Classes\n    AnyRef \n\nAnnotations\n     @throws(classOf[java.lang.Throwable]) @Deprecated \n\nDeprecated\n    \n_(Since version 9)_\n\n### Inherited from Logging"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_io_index.html.md",
+    "heading": "io[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/io/index.html \"Permalink\")",
+    "word_count": 47,
+    "text": "# io[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/io/index.html \"Permalink\")\n\n####  package io\nIO codecs used for compression. See [org.apache.spark.io.CompressionCodec](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/io/CompressionCodec.html \"org.apache.spark.io.CompressionCodec\").  \n\nSource\n    [package.scala](https://github.com/apache/spark/tree/v4.1.2/core/src/main/scala/org/apache/spark/io/package.scala)\nLinear Supertypes\nAnyRef, Any\n__ __\nOrdering\n  1. Alphabetic\n  2. By Inheritance\n\n\nInherited  \n\n  1. io\n  2. AnyRef\n  3. Any\n\n\n  1. Hide All\n  2. Show All\n\n\nVisibility\n  1. Public\n  2. Protected"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_mapred_index.html.md",
+    "heading": "mapred[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/mapred/index.html \"Permalink\")",
+    "word_count": 36,
+    "text": "# mapred[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/mapred/index.html \"Permalink\")\n\n####  package mapred\n__ __\nOrdering\n  1. Alphabetic\n\n\nVisibility\n  1. Public\n  2. Protected\n\n### Value Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/mapred/SparkHadoopMapRedUtil$.html \"Permalink\") object [SparkHadoopMapRedUtil](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/mapred/SparkHadoopMapRedUtil$.html) extends Logging\n\n### Ungrouped\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/mapred/SparkHadoopMapRedUtil$.html \"Permalink\") object [SparkHadoopMapRedUtil](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/mapred/SparkHadoopMapRedUtil$.html) extends Logging"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_ml_index.html.md",
+    "heading": "Value Members",
+    "word_count": 38,
+    "text": "### Value Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ml/Pipeline$.html \"Permalink\") object [Pipeline](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ml/Pipeline$.html) extends [MLReadable](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ml/util/MLReadable.html \"org.apache.spark.ml.util.MLReadable\")[[Pipeline](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ml/Pipeline.html \"org.apache.spark.ml.Pipeline\")] with [Serializable](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/Serializable.html#java.io.Serializable \"java.io.Serializable\") \n\nAnnotations\n     @Since(\"1.6.0\")\n  2. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ml/PipelineModel$.html \"Permalink\") object [PipelineModel](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ml/PipelineModel$.html) extends [MLReadable](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ml/util/MLReadable.html \"org.apache.spark.ml.util.MLReadable\")[[PipelineModel](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ml/PipelineModel.html \"org.apache.spark.ml.PipelineModel\")] with [Serializable](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/Serializable.html#java.io.Serializable \"java.io.Serializable\") \n\nAnnotations\n     @Since(\"1.6.0\")\n  3. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ml/functions$.html \"Permalink\") object [functions](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ml/functions$.html) \n\nAnnotations\n     @Since(\"3.0.0\")"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_rdd_DoubleRDDFunctions.html.md",
+    "heading": "Deprecated Value Members",
+    "word_count": 26,
+    "text": "### Deprecated Value Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/rdd/DoubleRDDFunctions.html#finalize\\(\\):Unit \"Permalink\") def finalize(): Unit \n\nAttributes\n    protected[lang]  \n\nDefinition Classes\n    AnyRef \n\nAnnotations\n     @throws(classOf[java.lang.Throwable]) @Deprecated \n\nDeprecated\n    \n_(Since version 9)_\n\n### Inherited from Logging"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_rdd_PairRDDFunctions.html.md",
+    "heading": "Deprecated Value Members",
+    "word_count": 26,
+    "text": "### Deprecated Value Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/rdd/PairRDDFunctions.html#finalize\\(\\):Unit \"Permalink\") def finalize(): Unit \n\nAttributes\n    protected[lang]  \n\nDefinition Classes\n    AnyRef \n\nAnnotations\n     @throws(classOf[java.lang.Throwable]) @Deprecated \n\nDeprecated\n    \n_(Since version 9)_\n\n### Inherited from Logging"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_rdd_RDD.html.md",
+    "heading": "Deprecated Value Members",
+    "word_count": 26,
+    "text": "### Deprecated Value Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/rdd/RDD.html#finalize\\(\\):Unit \"Permalink\") def finalize(): Unit \n\nAttributes\n    protected[lang]  \n\nDefinition Classes\n    AnyRef \n\nAnnotations\n     @throws(classOf[java.lang.Throwable]) @Deprecated \n\nDeprecated\n    \n_(Since version 9)_\n\n### Inherited from Logging"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_rdd_SequenceFileRDDFunctions.html.md",
+    "heading": "Deprecated Value Members",
+    "word_count": 26,
+    "text": "### Deprecated Value Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/rdd/SequenceFileRDDFunctions.html#finalize\\(\\):Unit \"Permalink\") def finalize(): Unit \n\nAttributes\n    protected[lang]  \n\nDefinition Classes\n    AnyRef \n\nAnnotations\n     @throws(classOf[java.lang.Throwable]) @Deprecated \n\nDeprecated\n    \n_(Since version 9)_\n\n### Inherited from Logging"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_rdd_index.html.md",
+    "heading": "Packages",
+    "word_count": 44,
+    "text": "## Packages\n\nDefinition Classes\n    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html \"org.apache.spark\")\n  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ui/index.html \"Permalink\") package [ui](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ui/index.html)\n\nDefinition Classes\n    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html \"org.apache.spark\")\n  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/unsafe/index.html \"Permalink\") package [unsafe](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/unsafe/index.html)\n\nDefinition Classes\n    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html \"org.apache.spark\")\n  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/util/index.html \"Permalink\") package [util](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/util/index.html \"Spark utilities.\")\nSpark utilities.\nSpark utilities.\n\nDefinition Classes\n    [spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html \"org.apache.spark\")\n\np\n[org](https://spark.apache.org/docs/latest/api/scala/org/index.html \"org\").[apache](https://spark.apache.org/docs/latest/api/scala/org/apache/index.html \"org.apache\").[spark](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/index.html \"org.apache.spark\")"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_rdd_index.html.md",
+    "heading": "rdd[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/rdd/index.html \"Permalink\")",
+    "word_count": 46,
+    "text": "# rdd[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/rdd/index.html \"Permalink\")\n\n####  package rdd\nProvides several RDD implementations. See [org.apache.spark.rdd.RDD](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/rdd/RDD.html \"org.apache.spark.rdd.RDD\").  \n\nSource\n    [package.scala](https://github.com/apache/spark/tree/v4.1.2/core/src/main/scala/org/apache/spark/rdd/package.scala)\nLinear Supertypes\nAnyRef, Any\n__ __\nOrdering\n  1. Alphabetic\n  2. By Inheritance\n\n\nInherited  \n\n  1. rdd\n  2. AnyRef\n  3. Any\n\n\n  1. Hide All\n  2. Show All\n\n\nVisibility\n  1. Public\n  2. Protected"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_resource_index.html.md",
+    "heading": "resource[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/resource/index.html \"Permalink\")",
+    "word_count": 17,
+    "text": "# resource[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/resource/index.html \"Permalink\")\n\n####  package resource\n__ __\nOrdering\n  1. Alphabetic\n\n\nVisibility\n  1. Public\n  2. Protected"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_resource_index.html.md",
+    "heading": "Value Members",
+    "word_count": 13,
+    "text": "### Value Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/resource/ResourceProfile$.html \"Permalink\") object [ResourceProfile](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/resource/ResourceProfile$.html) extends Logging with [Serializable](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/Serializable.html#java.io.Serializable \"java.io.Serializable\")"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_resource_index.html.md",
+    "heading": "Ungrouped",
+    "word_count": 12,
+    "text": "## Ungrouped\n\n1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/resource/ResourceProfile$.html \"Permalink\") object [ResourceProfile](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/resource/ResourceProfile$.html) extends Logging with [Serializable](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/Serializable.html#java.io.Serializable \"java.io.Serializable\")"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_serializer_index.html.md",
+    "heading": "serializer[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/serializer/index.html \"Permalink\")",
+    "word_count": 24,
+    "text": "# serializer[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/serializer/index.html \"Permalink\")\n\n####  package serializer\nPluggable serializers for RDD and shuffle data.  \n\nSource\n    [package.scala](https://github.com/apache/spark/tree/v4.1.2/core/src/main/scala/org/apache/spark/serializer/package.scala) \n\nSee also\n    \n[org.apache.spark.serializer.Serializer](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/serializer/Serializer.html \"org.apache.spark.serializer.Serializer\")\nLinear Supertypes\nAnyRef, Any"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_shuffle_index.html.md",
+    "heading": "shuffle[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/shuffle/index.html \"Permalink\")",
+    "word_count": 15,
+    "text": "# shuffle[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/shuffle/index.html \"Permalink\")\n\n####  package shuffle\n\n### Package Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/shuffle/api/index.html \"Permalink\") package [api](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/shuffle/api/index.html)"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_sql_Column.html.md",
+    "heading": "Value Members",
+    "word_count": 44,
+    "text": "## Value Members\n\nDefinition Classes\n    Logging\n  128. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/sql/Column.html#||\\(other:Any\\):org.apache.spark.sql.Column \"Permalink\") def ||(other: Any): [Column](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/sql/Column.html \"org.apache.spark.sql.Column\")\nBoolean OR.\nBoolean OR.\n\n```\n// Scala: The following selects people that are in school or employed.\npeople.filter( people(\"inSchool\") || people(\"isEmployed\") )\n\n// Java:\npeople.filter( people.col(\"inSchool\").or(people.col(\"isEmployed\")) );\n```\n\nSince\n\n1.3.0"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_sql_Dataset.html.md",
+    "heading": "Dataset[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/sql/Dataset.html \"Permalink\")",
+    "word_count": 4,
+    "text": "# Dataset[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/sql/Dataset.html \"Permalink\")"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_sql_Dataset.html.md",
+    "heading": "Instance Constructors",
+    "word_count": 8,
+    "text": "### Instance Constructors\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/sql/Dataset.html#<init>\\(\\):org.apache.spark.sql.Dataset\\[T\\] \"Permalink\") new Dataset()"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_status_index.html.md",
+    "heading": "status[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/status/index.html \"Permalink\")",
+    "word_count": 20,
+    "text": "# status[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/status/index.html \"Permalink\")\n\n####  package status\n\n### Package Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/status/api/index.html \"Permalink\") package [api](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/status/api/index.html)\n  2. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/status/protobuf/index.html \"Permalink\") package [protobuf](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/status/protobuf/index.html)"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_storage_index.html.md",
+    "heading": "storage[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/storage/index.html \"Permalink\")",
+    "word_count": 17,
+    "text": "# storage[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/storage/index.html \"Permalink\")\n\n####  package storage\n__ __\nOrdering\n  1. Alphabetic\n\n\nVisibility\n  1. Public\n  2. Protected"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_streaming_StreamingContext.html.md",
+    "heading": "Deprecated Value Members",
+    "word_count": 26,
+    "text": "### Deprecated Value Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/streaming/StreamingContext.html#finalize\\(\\):Unit \"Permalink\") def finalize(): Unit \n\nAttributes\n    protected[lang]  \n\nDefinition Classes\n    AnyRef \n\nAnnotations\n     @throws(classOf[java.lang.Throwable]) @Deprecated \n\nDeprecated\n    \n_(Since version 9)_\n\n### Inherited from Logging"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_streaming_api_java_JavaDStream.html.md",
+    "heading": "Deprecated Value Members",
+    "word_count": 31,
+    "text": "### Deprecated Value Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/streaming/api/java/JavaDStream.html#finalize\\(\\):Unit \"Permalink\") def finalize(): Unit \n\nAttributes\n    protected[lang]  \n\nDefinition Classes\n    AnyRef \n\nAnnotations\n     @throws(classOf[java.lang.Throwable]) @Deprecated \n\nDeprecated\n    \n_(Since version 9)_\n\n### Inherited from [JavaDStreamLike](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/streaming/api/java/JavaDStreamLike.html \"org.apache.spark.streaming.api.java.JavaDStreamLike\")[T, [JavaDStream](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/streaming/api/java/JavaDStream.html \"org.apache.spark.streaming.api.java.JavaDStream\")[T], [JavaRDD](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/api/java/JavaRDD.html \"org.apache.spark.api.java.JavaRDD\")[T]]"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_streaming_api_java_JavaPairDStream.html.md",
+    "heading": "Deprecated Value Members",
+    "word_count": 34,
+    "text": "### Deprecated Value Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/streaming/api/java/JavaPairDStream.html#finalize\\(\\):Unit \"Permalink\") def finalize(): Unit \n\nAttributes\n    protected[lang]  \n\nDefinition Classes\n    AnyRef \n\nAnnotations\n     @throws(classOf[java.lang.Throwable]) @Deprecated \n\nDeprecated\n    \n_(Since version 9)_\n\n### Inherited from [JavaDStreamLike](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/streaming/api/java/JavaDStreamLike.html \"org.apache.spark.streaming.api.java.JavaDStreamLike\")[(K, V), [JavaPairDStream](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/streaming/api/java/JavaPairDStream.html \"org.apache.spark.streaming.api.java.JavaPairDStream\")[K, V], [JavaPairRDD](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/api/java/JavaPairRDD.html \"org.apache.spark.api.java.JavaPairRDD\")[K, V]]"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_streaming_dstream_DStream.html.md",
+    "heading": "Deprecated Value Members",
+    "word_count": 26,
+    "text": "### Deprecated Value Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/streaming/dstream/DStream.html#finalize\\(\\):Unit \"Permalink\") def finalize(): Unit \n\nAttributes\n    protected[lang]  \n\nDefinition Classes\n    AnyRef \n\nAnnotations\n     @throws(classOf[java.lang.Throwable]) @Deprecated \n\nDeprecated\n    \n_(Since version 9)_\n\n### Inherited from Logging"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_ui_index.html.md",
+    "heading": "ui[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ui/index.html \"Permalink\")",
+    "word_count": 15,
+    "text": "# ui[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ui/index.html \"Permalink\")\n\n####  package ui\n\n### Package Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ui/jobs/index.html \"Permalink\") package [jobs](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ui/jobs/index.html)"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_unsafe_index.html.md",
+    "heading": "unsafe[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/unsafe/index.html \"Permalink\")",
+    "word_count": 15,
+    "text": "# unsafe[ __](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/unsafe/index.html \"Permalink\")\n\n####  package unsafe\n\n### Package Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/unsafe/types/index.html \"Permalink\") package [types](https://spark.apache.org/docs/latest/api/scala/org/apache/spark/unsafe/types/index.html)"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_apache_spark_util_index.html.md",
+    "heading": "Type Members",
+    "word_count": 5,
+    "text": "## Type Members\n\nAnnotations\n     @DeveloperApi()"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_api_scala_org_index.html.md",
+    "heading": "Packages",
+    "word_count": 41,
+    "text": "# Packages\n  * [__](https://spark.apache.org/docs/latest/api/scala/index.html \"Permalink\") package [root](https://spark.apache.org/docs/latest/api/scala/index.html) \n\nDefinition Classes\n    [root](https://spark.apache.org/docs/latest/api/scala/index.html \"_root_\")\n  * [__](https://spark.apache.org/docs/latest/api/scala/org/index.html \"Permalink\") package org \n\nDefinition Classes\n    [root](https://spark.apache.org/docs/latest/api/scala/index.html \"_root_\")\n  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/index.html \"Permalink\") package [apache](https://spark.apache.org/docs/latest/api/scala/org/apache/index.html)\n\n\np\n\n# org[ __](https://spark.apache.org/docs/latest/api/scala/org/index.html \"Permalink\")\n\n####  package org\n\n### Package Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/index.html \"Permalink\") package [apache](https://spark.apache.org/docs/latest/api/scala/org/apache/index.html)"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_configuration.html.md",
+    "heading": "Execution Behavior[](https://spark.apache.org/docs/latest/configuration.html#execution-behavior)",
+    "word_count": 16,
+    "text": "## Execution Behavior[](https://spark.apache.org/docs/latest/configuration.html#execution-behavior)\n\nNote that 2 may cause a correctness issue like MAPREDUCE-7282. | 2.2.0  |"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_configuration.html.md",
+    "heading": "Security[](https://spark.apache.org/docs/latest/configuration.html#security)",
+    "word_count": 21,
+    "text": "### Security[](https://spark.apache.org/docs/latest/configuration.html#security)\nPlease refer to the [Security](https://spark.apache.org/docs/latest/security.html) page for available options on how to secure different Spark subsystems.\n\n### Spark SQL[](https://spark.apache.org/docs/latest/configuration.html#spark-sql)"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_migration-guide.html.md",
+    "heading": "Migration Guide[](https://spark.apache.org/docs/latest/migration-guide.html#migration-guide)",
+    "word_count": 46,
+    "text": "# Migration Guide[](https://spark.apache.org/docs/latest/migration-guide.html#migration-guide)\nThis page documents sections of the migration guide for each component in order for users to migrate effectively.\n  * [Spark Core](https://spark.apache.org/docs/latest/core-migration-guide.html)\n  * [SQL, Datasets, and DataFrame](https://spark.apache.org/docs/latest/sql-migration-guide.html)\n  * [Structured Streaming](https://spark.apache.org/docs/latest/streaming/ss-migration-guide.html)\n  * [MLlib (Machine Learning)](https://spark.apache.org/docs/latest/ml-migration-guide.html)\n  * [PySpark (Python on Spark)](https://spark.apache.org/docs/latest/pyspark-migration-guide.html)\n  * [SparkR (R on Spark)](https://spark.apache.org/docs/latest/sparkr-migration-guide.html)"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_ml-classification-regression.html.md",
+    "heading": "Select example rows to display.",
+    "word_count": 9,
+    "text": "# Select example rows to display.\npredictions.select(\"prediction\", \"label\", \"features\").show(5)"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_ml-collaborative-filtering.html.md",
+    "heading": "Generate top 10 user recommendations for a specified set of movies",
+    "word_count": 22,
+    "text": "## Generate top 10 user recommendations for a specified set of movies\n\nRefer to the [R API docs](https://spark.apache.org/docs/latest/api/R/reference/spark.als.html) for more details.\n\n```"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_ml-features.html.md",
+    "heading": "Feature Selectors[](https://spark.apache.org/docs/latest/ml-features.html#feature-selectors)",
+    "word_count": 3,
+    "text": "# Feature Selectors[](https://spark.apache.org/docs/latest/ml-features.html#feature-selectors)"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_ml-features.html.md",
+    "heading": "It may return less than 2 rows when not enough approximate near-neighbor candidates are",
+    "word_count": 15,
+    "text": "# It may return less than 2 rows when not enough approximate near-neighbor candidates are"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_mllib-evaluation-metrics.html.md",
+    "heading": "Compute raw scores on the test set",
+    "word_count": 33,
+    "text": "# Compute raw scores on the test set\npredictionAndLabels = test.map(lambda lp: (float(model.predict(lp.features)), lp.label))\n\n# Instantiate metrics object\nmetrics = BinaryClassificationMetrics(predictionAndLabels)\n\n# Area under precision-recall curve\nprint(\"Area under PR = %s\" % metrics.areaUnderPR)"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_mllib-evaluation-metrics.html.md",
+    "heading": "R-squared",
+    "word_count": 19,
+    "text": "## R-squared\n\n// R-squared\nSystem.out.format(\"R-squared = %f\\n\", regressionMetrics.r2());\n```\n\nFind full example code at \"examples/src/main/java/org/apache/spark/examples/mllib/JavaRankingMetricsExample.java\" in the Spark repo."
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_mllib-linear-methods.html.md",
+    "heading": "Evaluating the model on training data",
+    "word_count": 28,
+    "text": "# Evaluating the model on training data\nlabelsAndPreds = parsedData.map(lambda p: (p.label, model.predict(p.features)))\ntrainErr = labelsAndPreds.filter(lambda lp: lp[0] != lp[1]).count() / float(parsedData.count())\nprint(\"Training Error = \" + str(trainErr))"
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_pyspark-migration-guide.html.md",
+    "heading": "Migration Guide: PySpark (Python on Spark)[](https://spark.apache.org/docs/latest/pyspark-migration-guide.html#migration-guide-pyspark-python-on-spark)",
+    "word_count": 16,
+    "text": "# Migration Guide: PySpark (Python on Spark)[](https://spark.apache.org/docs/latest/pyspark-migration-guide.html#migration-guide-pyspark-python-on-spark)\nThe migration guide is now archived on [this page](https://spark.apache.org/docs/latest/api/python/migration_guide/index.html)."
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_security.html.md",
+    "heading": "SSL Configuration[](https://spark.apache.org/docs/latest/security.html#ssl-configuration)",
+    "word_count": 34,
+    "text": "## SSL Configuration[](https://spark.apache.org/docs/latest/security.html#ssl-configuration)\n\nTo configure the location of the credential provider, set the `hadoop.security.credential.provider.path` config option in the Hadoop configuration used by Spark, like:\n\n```\n  <property>\n    <name>hadoop.security.credential.provider.path</name>\n    <value>jceks://hdfs@nn1.example.com:9001/user/backup/ssl.jceks</value>\n  </property>\n\n```\n\nOr via SparkConf “spark.hadoop.hadoop.security.credential.provider.path=jceks://hdfs@nn1.example.com:9001/user/backup/ssl.jceks”."
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_sql-migration-guide.html.md",
+    "heading": "Upgrading from Spark SQL 2.3 to 2.4[](https://spark.apache.org/docs/latest/sql-migration-guide.html#upgrading-from-spark-sql-23-to-24)",
+    "word_count": 22,
+    "text": "## Upgrading from Spark SQL 2.3 to 2.4[](https://spark.apache.org/docs/latest/sql-migration-guide.html#upgrading-from-spark-sql-23-to-24)\n\nThis change also applies to Parquet Hive tables when `spark.sql.hive.convertMetastoreParquet` is set to `true`."
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_sql-ref-ansi-compliance.html.md",
+    "heading": "Rounding in cast[](https://spark.apache.org/docs/latest/sql-ref-ansi-compliance.html#rounding-in-cast)",
+    "word_count": 44,
+    "text": "#### Rounding in cast[](https://spark.apache.org/docs/latest/sql-ref-ansi-compliance.html#rounding-in-cast)\nWhile casting of a decimal with a fraction to an interval type with SECOND as the end-unit like INTERVAL HOUR TO SECOND, Spark rounds the fractional part towards “nearest neighbor” unless both neighbors are equidistant, in which case round up."
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_sql-ref-ansi-compliance.html.md",
+    "heading": "SQL Operators[](https://spark.apache.org/docs/latest/sql-ref-ansi-compliance.html#sql-operators)",
+    "word_count": 26,
+    "text": "### SQL Operators[](https://spark.apache.org/docs/latest/sql-ref-ansi-compliance.html#sql-operators)\nThe behavior of some SQL operators can be different under ANSI mode (`spark.sql.ansi.enabled=true`).\n  * `array_col[index]`: This operator throws `ArrayIndexOutOfBoundsException` if using invalid indices."
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_streaming-programming-guide.html.md",
+    "heading": "Deploying Applications[](https://spark.apache.org/docs/latest/streaming-programming-guide.html#deploying-applications)",
+    "word_count": 14,
+    "text": "## Deploying Applications[](https://spark.apache.org/docs/latest/streaming-programming-guide.html#deploying-applications)\nThis section discusses the steps to deploy a Spark Streaming application."
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_streaming_apis-on-dataframes-and-datasets.html.md",
+    "heading": "Monitoring Streaming Queries[](https://spark.apache.org/docs/latest/streaming/apis-on-dataframes-and-datasets.html#monitoring-streaming-queries)",
+    "word_count": 30,
+    "text": "## Monitoring Streaming Queries[](https://spark.apache.org/docs/latest/streaming/apis-on-dataframes-and-datasets.html#monitoring-streaming-queries)\nThere are multiple ways to monitor active streaming queries. You can either push metrics to external systems using Spark’s Dropwizard Metrics support, or access them programmatically."
+  },
+  {
+    "filename": "spark.apache.org_docs_latest_structured-streaming-programming-guide.html.md",
+    "heading": "Structured Streaming Programming Guide[](https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html#structured-streaming-programming-guide)",
+    "word_count": 29,
+    "text": "# Structured Streaming Programming Guide[](https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html#structured-streaming-programming-guide)\nAs of Spark 4.0.0, the Structured Streaming Programming Guide has been broken apart into smaller, more readable pages. You can find these pages [here](https://spark.apache.org/docs/latest/streaming/index.html)."
+  },
+  {
+    "filename": "spark.apache.org_spark-connect_.md",
+    "heading": "Spark Connect",
+    "word_count": 35,
+    "text": "# Spark Connect\nThis page explains the Spark Connect architecture, the benefits of Spark Connect, and how to upgrade to Spark Connect.\nLet’s start by exploring the architecture of Spark Connect at a high level."
+  }
+]
