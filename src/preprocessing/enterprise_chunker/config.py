@@ -41,6 +41,12 @@ class ChunkConfig:
     # Number of overlapping words between neighbouring chunks
     overlap_words: int = 50
 
+    # Max number of markdown table rows packed into a single chunk when
+    # splitting large tables (see preserve_tables). Kept small so each
+    # chunk's embedding stays specific to a handful of properties/rows
+    # instead of blending many unrelated ones together.
+    table_rows_per_chunk: int = 4
+
     # ------------------------------------------------------------------
     # Parsing Behaviour
     # ------------------------------------------------------------------

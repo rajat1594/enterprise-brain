@@ -1,11 +1,5 @@
 [
   {
-    "filename": "hadoop.apache.org_docs_current_hadoop-yarn_hadoop-yarn-site_FairScheduler.html.md",
-    "heading": "Properties that can be placed in yarn-site.xml",
-    "word_count": 28,
-    "text": "## Properties that can be placed in yarn-site.xml\n\n|  \n|  `yarn.scheduler.increment-allocation-vcores`  |  The allocation increment for CPU vcores. No longer preferred. Use `yarn.resource-types.vcores.increment-allocation` instead. Defaults to 1. |"
-  },
-  {
     "filename": "hadoop.apache.org_docs_stable_hadoop-project-dist_hadoop-hdfs_HDFSCommands.html.md",
     "heading": "`dfsrouter`",
     "word_count": 14,
@@ -258,12 +252,6 @@
     "text": "# Package org.apache.spark.util.logging\n* * *\npackage org.apache.spark.util.logging\n  * Related Packages\nPackage\nDescription\n[org.apache.spark.util](https://spark.apache.org/docs/latest/api/java/org/apache/spark/util/package-summary.html)\nSpark utilities.\n[org.apache.spark.util.random](https://spark.apache.org/docs/latest/api/java/org/apache/spark/util/random/package-summary.html)\nUtilities for random number generation.\n[org.apache.spark.util.sketch](https://spark.apache.org/docs/latest/api/java/org/apache/spark/util/sketch/package-summary.html)\n  * Interfaces\nClass\nDescription\n[RollingPolicy](https://spark.apache.org/docs/latest/api/java/org/apache/spark/util/logging/RollingPolicy.html \"interface in org.apache.spark.util.logging\")\nDefines the policy based on which `RollingFileAppender` will generate rolling files."
   },
   {
-    "filename": "spark.apache.org_docs_latest_api_python_reference_pyspark.streaming.html.md",
-    "heading": "Transformations and Actions[#](https://spark.apache.org/docs/latest/api/python/reference/pyspark.streaming.html#transformations-and-actions \"Permalink to this headline\")",
-    "word_count": 38,
-    "text": "## Transformations and Actions[#](https://spark.apache.org/docs/latest/api/python/reference/pyspark.streaming.html#transformations-and-actions \"Permalink to this headline\")\n\n|  \n| [`DStream.window`](https://spark.apache.org/docs/latest/api/python/reference/api/pyspark.streaming.DStream.window.html#pyspark.streaming.DStream.window \"pyspark.streaming.DStream.window\")(windowDuration[, slideDuration])  | Return a new DStream in which each RDD contains all the elements in seen in a sliding window of time over this DStream. |"
-  },
-  {
     "filename": "spark.apache.org_docs_latest_api_scala_index.html.md",
     "heading": "Packages",
     "word_count": 29,
@@ -496,12 +484,6 @@
     "heading": "Packages",
     "word_count": 41,
     "text": "# Packages\n  * [__](https://spark.apache.org/docs/latest/api/scala/index.html \"Permalink\") package [root](https://spark.apache.org/docs/latest/api/scala/index.html) \n\nDefinition Classes\n    [root](https://spark.apache.org/docs/latest/api/scala/index.html \"_root_\")\n  * [__](https://spark.apache.org/docs/latest/api/scala/org/index.html \"Permalink\") package org \n\nDefinition Classes\n    [root](https://spark.apache.org/docs/latest/api/scala/index.html \"_root_\")\n  * [__](https://spark.apache.org/docs/latest/api/scala/org/apache/index.html \"Permalink\") package [apache](https://spark.apache.org/docs/latest/api/scala/org/apache/index.html)\n\n\np\n\n# org[ __](https://spark.apache.org/docs/latest/api/scala/org/index.html \"Permalink\")\n\n####  package org\n\n### Package Members\n  1. [__](https://spark.apache.org/docs/latest/api/scala/org/apache/index.html \"Permalink\") package [apache](https://spark.apache.org/docs/latest/api/scala/org/apache/index.html)"
-  },
-  {
-    "filename": "spark.apache.org_docs_latest_configuration.html.md",
-    "heading": "Execution Behavior[](https://spark.apache.org/docs/latest/configuration.html#execution-behavior)",
-    "word_count": 16,
-    "text": "## Execution Behavior[](https://spark.apache.org/docs/latest/configuration.html#execution-behavior)\n\nNote that 2 may cause a correctness issue like MAPREDUCE-7282. | 2.2.0  |"
   },
   {
     "filename": "spark.apache.org_docs_latest_configuration.html.md",

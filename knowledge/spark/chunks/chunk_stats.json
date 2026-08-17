@@ -1,11 +1,11 @@
 {
     "documents": 585,
     "sections": 2612,
-    "chunks": 3771,
-    "total_words": 1636904,
-    "average_chunk_words": 434.08,
+    "chunks": 4343,
+    "total_words": 1662719,
+    "average_chunk_words": 382.85,
     "largest_chunk_words": 847,
     "smallest_chunk_words": 11,
-    "tiny_chunks": 100,
-    "oversized_chunks": 231
+    "tiny_chunks": 97,
+    "oversized_chunks": 218
 }

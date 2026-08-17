@@ -66,7 +66,7 @@ def main():
     questions = [
         "How does Spark decide when to use a broadcast hash join?",
         "How do I configure Spark executor memory?",
-        "What is a DataFrame in PySpark?",
+        "What is the default value of spark.sql.shuffle.partitions?",
     ]
 
     for q in questions:
